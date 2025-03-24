@@ -1,0 +1,223 @@
+
+
+body {
+  /* background-color:; */
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+
+@font-face {
+  font-family: "Integral";
+  src: local("Integral"),
+   url("./fonts/Integral.ttf") format("truetype");
+  /* font-weight: bold; */
+ }
+
+ @font-face {
+  font-family: "IntegralCF-Regular";
+  src: local("IntegralCF-Regular"),
+   url("./fonts/IntegralCF-Regular.ttf") format("truetype");
+  /* font-weight: 500; */
+ }
+
+
+
+ @font-face {
+  font-family: "OpenSans-Bold";
+  src: local("OpenSans-Bold"),
+   url("./fonts/OpenSans-Bold.ttf") format("truetype");
+  font-weight: 600;
+ }
+
+
+ /* Plus Jakarta Sans Font Family */
+
+ @font-face {
+  font-family: "OpenSans-BoldItalic";
+  src: local("OpenSans-BoldItalic"),
+   url("./fonts/OpenSans-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+ }
+
+ @font-face {
+  font-family: "OpenSans-ExtraBold";
+  src: local("OpenSans-ExtraBold"),
+   url("./fonts/OpenSans-ExtraBold.ttf") format("truetype");
+  font-weight: 500;
+ }
+
+ @font-face {
+  font-family: "OpenSans-ExtraBoldItalic";
+  src: local("OpenSans-ExtraBoldItalic"),
+   url("./fonts/OpenSans-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: 400;
+ }
+
+ @font-face {
+  font-family: "OpenSans-Italic";
+  src: local("OpenSans-Italic"),
+   url("./fonts/OpenSans-Italic.ttf") format("truetype");
+  font-weight: 600;
+ }
+
+ /* Gillory Font Family */
+ @font-face {
+  font-family: "OpenSans-Light";
+  src: local("OpenSans-Light"),
+   url("./fonts/OpenSans-Light.ttf") format("truetype");
+  font-weight: bold;
+ }
+
+ @font-face {
+  font-family: "OpenSans-LightItalic";
+  src: local("OpenSans-LightItalic"),
+  url("./fonts/OpenSans-LightItalic.ttf") format("truetype");
+  font-weight: 500;
+ }
+
+ @font-face {
+  font-family: "OpenSans-Regular";
+  src: local("OpenSans-Regular"),
+  url("./fonts/OpenSans-Regular.ttf") format("truetype");
+  /* font-weight: 400; */
+ }
+
+ @font-face {
+  font-family: "OpenSans-Semibold";
+  src: local("OpenSans-Semibold"),
+  url("./fonts/OpenSans-Semibold.ttf")format("truetype");
+  /* font-weight: 600; */
+ }
+
+ @font-face {
+  font-family: "OpenSans-SemiboldItalic";
+  src: local("OpenSans-SemiboldItalic"),
+  url("./fonts/OpenSans-SemiboldItalic.ttf")format("truetype");
+  font-weight: 600;
+ }
+ 
+ @font-face {
+  font-family: "Poppins-Bold";
+  src: local("Poppins-Bold"),
+  url("./fonts/Poppins-Bold.ttf")format("truetype");
+  font-weight: 600;
+ }
+ 
+ @font-face {
+  font-family: "Poppins-Regular";
+  src: local("Poppins-Regular"),
+  url("./fonts/Poppins-Regular.ttf")format("truetype");
+  font-weight: 600;
+ }
+
+ @font-face {
+  font-family: "Poppins-Medium";
+  src: local("Poppins-Medium"),
+  url("./fonts/Poppins-Medium.ttf")format("truetype");
+  font-weight: 600;
+ }
+ @font-face {
+  font-family: "Poppins-SemiBold";
+  src: local("Poppins-SemiBold"),
+  url("./fonts/Poppins-SemiBold.ttf")format("truetype");
+  font-weight: 600;
+ }
+
+ @font-face {
+  font-family: "PlusJakartaSansSemiBold";
+  src: local("PlusJakartaSansSemiBold"),
+   url("./fonts/PlusJakartaSans-SemiBold.ttf") format("truetype");
+  /* font-weight: 600; */
+ }
+
+ @font-face {
+  font-family: "integralcf-bold";
+  src: local("integralcf-bold"),
+   url("./fonts/integralcf-bold.ttf") format("truetype");
+  /* font-weight: 600; */
+ }
+
+ @font-face {
+  font-family: "integralcf-medium";
+  src: local("integralcf-medium"),
+   url("./fonts/integralcf-medium.ttf") format("truetype");
+  /* font-weight: 600; */
+ }
+
+
+ 
+
+ @font-face {
+  font-family: "PlusJakartaSans-Bold";
+  src: local("PlusJakartaSans-Bold"),
+   url("./fonts/PlusJakartaSans-Bold.ttf") format("truetype");
+  /* font-weight: 600; */
+ }
+
+
+ @font-face {
+  font-family: "PlusJakartaSans-Regular";
+  src: local("PlusJakartaSans-Regular"),
+   url("./fonts/PlusJakartaSans-Regular.ttf") format("truetype");
+  /* font-weight: 600; */
+ }
+ @font-face {
+  font-family: "HankenGrotesk-Medium";
+  src: local("HankenGrotesk-Medium"),
+   url("fonts/Hanken_Grotesk/static/HankenGrotesk-Medium.ttf") format("truetype");
+  /* font-weight: 600; */
+ }
+
+ @font-face {
+  font-family: "HankenGrotesk-Regular";
+  src: local("HankenGrotesk-Regular"),
+   url("fonts/Hanken_Grotesk/static/HankenGrotesk-Regular.ttf") format("truetype");
+  /* font-weight: 600; */
+ }
+ @font-face {
+  font-family: "Cardo-Bold";
+  src: local("Cardo-Bold"),
+   url("fonts/Cardo/Cardo-Bold.ttf") format("truetype");
+  /* font-weight: 600; */
+ }
+ @font-face {
+  font-family: "Cardo-Italic";
+  src: local("Cardo-Italic"),
+   url("fonts/Cardo/Cardo-Italic.ttf") format("truetype");
+  /* font-weight: 600; */
+ }
+ @font-face {
+  font-family: "Cardo-Regular";
+  src: local("Cardo-Regular"),
+   url("fonts/Cardo/Cardo-Regular.ttf") format("truetype");
+  /* font-weight: 600; */
+ }
+ @font-face {
+  font-family: "Quattrocento-Regular";
+  src: local("Quattrocento-Regular"),
+   url("fonts/Quattrocento/Quattrocento-Regular.ttf") format("truetype");
+  /* font-weight: 600; */
+ }
+ @font-face {
+  font-family: "Quattrocento-Bold";
+  src: local("Quattrocento-Bold"),
+   url("fonts/Quattrocento/Quattrocento-Bold.ttf") format("truetype");
+  /* font-weight: 600; */
+ }
+ :root {
+  --color-primary: #FF5F67;
+  /* color: #FFFFFF;
+  background-color: #1c1c1e; */
+}

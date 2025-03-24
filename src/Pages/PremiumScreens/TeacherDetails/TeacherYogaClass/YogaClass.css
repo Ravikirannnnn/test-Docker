@@ -1,0 +1,66 @@
+.overall-yoga-cls{
+  margin-left: 14%;
+  margin-right: 14%;
+  margin-top: 5%;
+  padding-bottom: 6%;
+
+}
+.online-cls{
+  font-family: "OpenSans-Semibold";
+font-size: 15px;
+font-weight: 600;
+line-height: 18px;
+text-align: left;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+border-bottom: 1px solid #2C2C2E;
+padding-bottom: 1%;
+margin-top: 2%;
+}
+
+
+@media (max-width:800px) {
+  .overall-yoga-cls{
+    margin-left: 14%;
+    margin-right: 10%;
+    margin-top: 5%;
+    padding-bottom: 6%;
+  
+  }
+  .online-cls{
+  font-size: 14px;
+  }
+  .react-switch-bg {
+    height: 18px;
+    width: 26px;
+    margin: 0px;
+    position: relative;
+    background: rgb(214, 79, 79);
+    border-radius: 14px;
+    cursor: pointer;
+    transition: background 0.25
+  }
+}
+  @media (max-width:480px) {
+    .overall-yoga-cls{
+      margin-left: 14%;
+      margin-right: 8%;
+      margin-top: 7%;
+    
+    }
+    .online-cls{
+    font-size: 12px;
+    }
+    /* }
+    .react-switch-bg {
+      height: 18px;
+      width: 26px;
+      margin: 0px;
+      position: relative;
+      background: rgb(214, 79, 79);
+      border-radius: 14px;
+      cursor: pointer;
+      transition: background 0.25
+    } */
+}

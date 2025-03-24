@@ -1,0 +1,257 @@
+.overall-edit-teacher-vt{
+  margin-left: 14%;
+  margin-right: 14%;
+  margin-top: 2%;
+  padding-bottom: 9%;
+}
+.teacher-main-container-vt{
+  border-radius: 12px;
+  padding: 3%;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+}
+.teacher-title-vt{
+  font-family: 'OpenSans-Regular';
+font-size: 21px;
+font-weight: 700;
+line-height: 28.6px;
+text-align: left;
+color: #FFFFFF66;
+}
+.teacher-content-1-vt,.teacher-content-2-vt,.teacher-content-3-vt,.teacher-content-6-vt,.teacher-content-7-vt,.teacher-content-8-vt{
+  font-family: 'OpenSans-Regular';
+font-size: 16px;
+font-weight: 400;
+line-height: 21.79px;
+text-align: left;
+color: #ff5f67;
+border-bottom: 1px solid #4F4F4F;
+display: flex;
+flex-direction: column;
+padding-bottom: .5%;
+margin-top: 2%;
+}
+.teacher-content-1-vt input,.teacher-content-2-vt input,.teacher-content-3-vt input,.teacher-content-4-vt input,.teacher-content-5-vt input,.teacher-content-6-vt input,.teacher-content-7-vt input,.teacher-content-8-vt input{
+border: none;
+}
+.teacher-content-4-vt,.teacher-content-5-vt{
+  font-family: 'OpenSans-Regular';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: left;
+  color: #ff5f67;
+  border-bottom: 1px solid #4F4F4F;
+ 
+  padding-bottom: .5%;
+  margin-top: 2%;
+}
+.inside-content-vt,.inside-content-1-vt{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.inside-content-vt img{
+  width: 24px;
+  height: 24px;
+}
+.inside-content-1-vt img{
+  width: 14px;
+  height: 7px;
+}
+.teacher-btn-vt{
+  align-content: center;
+    margin-top: 3%;
+    float: right;
+    width: 20%;
+  height: 40px;
+  background-color: #FF5F67;
+  border-radius: 30px;
+  font-family: "OpenSans-Regular";
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 23.15px;
+  text-align: center;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+}
+.city-list {
+  border-radius: 10px;
+  margin-top: 5px;
+  /* background-color: #f0f0f0; */
+  max-height: 120px;
+  overflow-y: scroll;
+  padding: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: auto;
+  scrollbar-width: none; 
+
+}
+/* City item */
+.city-item {
+  font-size: 14px;
+  /* color: #000; */
+  margin-bottom: 5px;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.city-item:hover {
+  background-color: #555;
+  padding-left: 5px;
+  border-radius: 5px;
+}
+
+.dark-calendar .react-datepicker__header {
+  background-color: #3A3A3C;
+  border-bottom: 1px solid #555;
+}
+
+.dark-calendar .react-datepicker__day,
+.dark-calendar .react-datepicker__day-name,
+.dark-calendar .react-datepicker__current-month,
+.dark-calendar .react-datepicker__month {
+  color: #d8d8df;
+}
+
+.dark-calendar .react-datepicker__month {
+  background-color: #2C2C2E; /* Dark mode background */
+  margin: 0
+}
+
+.dark-calendar .react-datepicker__day--selected {
+  background-color: #555;
+  color: #FFFFFF;
+}
+
+.dark-calendar .react-datepicker__day--keyboard-selected {
+  background-color: #444;
+  color: #FFFFFF;
+}
+
+.light-calendar .react-datepicker__header {
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ddd;
+}
+
+.light-calendar .react-datepicker__day,
+.light-calendar .react-datepicker__day-name,
+.light-calendar .react-datepicker__current-month,
+.light-calendar .react-datepicker__month {
+  color: #2C2C2E;
+}
+
+.light-calendar .react-datepicker__month {
+  background-color: #FFFFFF; /* Light mode background */
+}
+
+.light-calendar .react-datepicker__day--selected {
+  background-color: #2C2C2E;
+  color: #FFFFFF;
+}
+
+.light-calendar .react-datepicker__day--keyboard-selected {
+  background-color: #555;
+  color: #FFFFFF;
+}
+
+
+@media (max-width:800px) {
+  .city-list {
+    max-height: 100px;
+    padding: 8px;
+  }
+  .city-item {
+    font-size: 13px;
+  }
+
+  .overall-edit-teacher-vt{
+    margin-left: 14%;
+    margin-right: 10%;
+  }
+  .teacher-main-container-vt{
+    border-radius: 12px;
+    padding: 4%;
+  }
+  .teacher-title-vt{
+  font-size: 19px;
+  }
+  .teacher-content-1-vt,.teacher-content-2-vt,.teacher-content-3-vt,.teacher-content-6-vt,.teacher-content-7-vt,.teacher-content-8-vt{
+ 
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21.79px;
+  }
+  .teacher-content-4-vt,.teacher-content-5-vt{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21.79px;
+  }
+  .inside-content-vt img{
+    width: 18px;
+    height: 18px;
+  }
+  .inside-content-1-vt img{
+    width: 12px;
+    height: 6px;
+  }
+  .teacher-btn-vt{
+    align-content: center;
+      margin-top: 3%;
+      float: right;
+      width: 25%;
+    height: 40px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width:480px) {
+  .city-list {
+    max-height: 80px;
+    padding: 6px;
+  }
+
+  .city-item {
+    font-size: 12px;
+    margin-bottom: 3px;
+  }
+
+ 
+  .overall-edit-teacher-vt{
+    margin-right: 7%;
+    padding-bottom: 12%;
+  }
+  .teacher-main-container-vt{
+    padding: 7%;
+  }
+  .teacher-title-vt{
+  font-size: 16px;
+  }
+  .teacher-content-1-vt,.teacher-content-2-vt,.teacher-content-3-vt,.teacher-content-6-vt,.teacher-content-7-vt,.teacher-content-8-vt{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21.79px;
+  }
+  .teacher-content-4-vt,.teacher-content-5-vt{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21.79px;
+  }
+  .inside-content-vt img{
+    width: 12px;
+    height: 12px;
+  }
+  .inside-content-1-vt img{
+    width: 10px;
+    height: 5px;
+  }
+  .teacher-btn-vt{
+    align-content: center;
+      margin-top: 4%;
+      float: right;
+      width: 45%;
+    height: 30px;
+    font-size: 16px;
+  }
+}

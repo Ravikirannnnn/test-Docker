@@ -1,0 +1,18 @@
+#header-bar{
+    display: none !important;
+}
+@media(max-width:560px){
+#react-doc-viewer{
+    height: 100vh;
+    background-color: #fff;
+}
+.page-Layout-conatiner{
+    padding-bottom: 0%;
+}
+}
+@media(min-width:800px){
+
+.page-Layout-conatiner{
+    padding-bottom:0%
+}
+}

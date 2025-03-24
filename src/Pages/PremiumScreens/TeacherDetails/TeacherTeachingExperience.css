@@ -1,0 +1,134 @@
+.overall-ex{
+    margin-left: 14%;
+    margin-right: 14%;
+    margin-top: 2%;
+    padding-bottom: 8%;
+  }
+  .top-ex-main-continer{
+    border-radius: 12px;
+    padding: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2%;
+  }
+  .ex-content h3{
+    font-family: 'OpenSans-Regular';
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24.51px;
+  text-align: left;
+  }
+  .ex-content h4{
+    font-family: 'OpenSans-Regular';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: left;
+  
+  }
+  .ex-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .ex-btn{
+    align-content: center;
+    float: right;
+    width: 8%;
+  height: 30px;
+  background-color: #FF5F67;
+  border-radius: 30px;
+  font-family: "OpenSans-Regular";
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 23.15px;
+  text-align: center;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+  }
+  .teaching-btn{
+    align-content: center;
+    /* margin-top: 5%; */
+    float: right;
+    width: 20%;
+  height: 45px;
+  background-color: #FF5F67;
+  border-radius: 30px;
+  font-family: "OpenSans-Regular";
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 23.15px;
+  text-align: center;
+  margin-right: 14%;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+  }
+  
+  @media (max-width:800px) {
+    .teaching-btn{
+      width: 20%;
+    height: 40px;
+    font-size: 15px;
+    /* padding-bottom: 30%; */
+    }
+    
+    .overall-ex{
+      margin-left: 14%;
+      margin-right: 8%;
+      margin-top: 3%;
+      padding-bottom: 20%;
+    }
+    .ex-content h3{
+    font-size: 16px;
+    line-height: 24.51px;
+    }
+    .ex-content h4{
+    font-size: 14px;
+    line-height: 19.79px;
+    }
+    .ex-content{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+    .ex-btn{
+      align-content: center;
+      float: right;
+      width: 10%;
+    height: 23px;
+    font-size: 13px;
+    line-height: 23.15px;
+    }
+  }
+  @media (max-width:480px) {
+    .teaching-btn{
+      margin-top: 10%;
+      width: 30%;
+    height: 30px;
+    font-size: 14px;
+    }
+    .overall-ex{
+      margin-left: 14%;
+      margin-right: 8%;
+      margin-top: 3%;
+      padding-bottom: 27%;
+    }
+    .ex-content h3{
+    font-size: 14px;
+    line-height: 22.51px;
+    }
+    .ex-content h4{
+    font-size: 12px;
+    line-height: 18.79px;
+    }
+    .ex-btn{
+      align-content: center;
+      align-items: center;
+      float: right;
+      width:17%;
+    height: 20px;
+    font-size: 11px;
+    line-height: 23.15px;
+    }
+  }

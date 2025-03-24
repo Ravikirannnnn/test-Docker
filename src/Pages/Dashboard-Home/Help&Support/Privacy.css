@@ -1,0 +1,141 @@
+.privacy-main-container{
+  padding-top: 0%;
+  padding-left: 1%;
+  padding-right: 10%;
+  /* padding-bottom: 10%; */
+}
+.left-arrow-main-009{
+  /* background-color: #d8d8df; */
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  align-content: center;
+box-shadow: 0px 0px 1px 1px #00BBD140;
+}
+.edit-profile-flex-start-009{
+  display:flex;
+  flex-direction: row;
+  /* justify-content:safe; */
+  /* grid-template-columns:5% 20% ; */
+  
+}
+.edit-profile-title-009{
+  font-family: "PlusJakartaSans-Bold";
+font-size: 32px;
+font-weight: 400;
+line-height: 43px;
+text-align: left;
+margin-left: 2%;
+}
+.edit-profile-left-arrow-009>img{
+  width: 11px;
+  height: 21px;
+  align-items: center;
+  text-align: center;
+  /* border-radius: 50%; */
+}
+.privacy-text-1{
+  /* //styleName: Body/Semibold; */
+font-family: 'PlusJakartaSans-Regular';
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+margin-top: 5%;
+margin-left: -.4%;
+}
+.privacy-text-2,.privacy-text-3,.privacy-text-4,.privacy-text-5{
+  font-family: 'OpenSans-Regular';
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  margin-top: 3%;
+}
+.privacy-text-container{
+  margin-left: 16%;
+}
+.prev-tit{
+  /* margin-left: -11%; */
+}
+@media only screen and (max-width: 780px) {
+  .privacy-main-container {
+    padding-left: 0%;
+    padding-right: 9%;
+  }
+
+  .edit-profile-title-009 {
+    font-size: 28px;
+    margin-left: 1%;
+  }
+
+  .privacy-text-1 {
+    font-size: 18px;
+  }
+
+  .privacy-text-2,
+  .privacy-text-3,
+  .privacy-text-4,
+  .privacy-text-5 {
+    font-size: 14px;
+    margin-top: 3%;
+    line-height: 19px;
+  }
+
+  .privacy-text-container {
+    margin-left: 19%;
+  }
+  .prev-tit{
+    /* margin-left: -11%; */
+  }
+}
+
+/* Responsive Styles for max-width: 480px */
+@media only screen and (max-width: 480px) {
+  .privacy-main-container {
+    padding-left: 12.5%;
+    padding-right: 4%;
+    /* margin-bottom: 5%; */
+    /* height: 100vh; */
+  }
+
+  .left-arrow-main-009 {
+    width: 22px;
+    height: 22px;
+    margin-top: 4%;
+  }
+.edit-profile-left-arrow-009>img{
+  width:7px;
+  height:12px;
+  margin-bottom: 15%;
+}
+  .edit-profile-title-009 {
+    font-size: 20px;
+    margin-left:3% ;
+  }
+
+  .privacy-text-1 {
+    font-size: 15px;
+    /* margin-left: 8% ; */
+  }
+
+  .privacy-text-2,
+  .privacy-text-3,
+  .privacy-text-4,
+  .privacy-text-5 {
+    font-size: 10px;
+    margin-top: 4%;
+  line-height: 14px;
+
+  }
+.edit-profile-title-009{
+  font-size: 20px;
+  margin-top: 1%;
+}
+  .privacy-text-container {
+    margin-left: 10.5%;
+  }
+  .prev-tit{
+    margin-left: 0%;
+  }
+}

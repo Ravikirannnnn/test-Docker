@@ -1,0 +1,167 @@
+.welcomefooterview-conatinerheader{
+width: 100%;
+padding: 25px;
+}
+.welcomefooter-down{
+    width: 100%;
+    height: 554px;
+    background-image: url('/assets/welcomefooter.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-radius: 35px;
+    padding: 20px;
+
+}
+.welcomefooter-downsub{
+    display: flex;
+    flex-direction: column;
+   
+  padding-top: 60px;
+  padding-left: 60px;
+    
+}
+.welcomefooter-downtext{
+    align-items: flex-start;
+    display: flex;
+    font-size: 40px;
+    font-family: "PlusJakartaSans-Regular";
+    font-weight: 700;
+
+}
+.welcomefooter-downsubtext{
+    align-items: flex-start;
+   width: 400px;
+   font-family: "PlusJakartaSans-Regular";
+   font-size: 22px;
+   text-align: left;
+   line-height: 27px;
+    padding-top: 5%;
+    display: flex;
+    color: #fff;
+}
+.welcomefooter-playapple{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding-top: 5%;
+  
+   
+   
+}
+.welcomefooter-downplaystore{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    width: 150px;
+    height: 45px;
+    justify-content: center;
+    border: 0.5px solid gray;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 10px;
+}
+.welcomefooter-downplaystore-sub{
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+
+}  
+
+.welcomefooter-downplaystore-subtext{
+    font-size: 10px;
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    font-family: 'OpenSans-Regular';
+
+}
+.welcomefooter-downplaystore-subtext1{
+    font-size: 15px;
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    font-family: 'OpenSans-Regular';
+}
+
+.welcomefooterviwdownimage{
+  height:100%;
+  max-width: 600px;
+  width: 100%;
+}
+
+/* Tablets */
+@media (max-width:800px) {
+  .welcomefooter-down{
+
+    
+  }
+}
+  
+  /* Mobile Phones */
+  @media (max-width: 480px) {
+
+    .welcomefooter-down{
+      width: 100%;
+      height: 300px !important;
+      background-image: url('/assets/welcomefooter.png');
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      display: grid;
+      grid-template-columns: 90% 0%;
+      border-radius: 35px;
+      padding: 10px;
+      height: 430px;
+  
+  }
+    /* .welcomefooter-down {
+      display: flex;
+      flex-direction: row;
+      padding: 10px;
+    } */
+  
+    .welcomefooter-downsub {
+      padding-top: 20px;
+      padding-left: 20px;
+      width: 100%;
+    }
+  
+    .welcomefooter-downtext {
+      font-size: 20px;
+    }
+  
+    .welcomefooter-downsubtext {
+      font-size: 14px;
+      width: 100%;
+      padding-top: 10px;
+    }
+  
+    .welcomefooter-playapple {
+      flex-direction: row;
+      gap: 10px;
+    }
+  
+    .welcomefooter-downplaystore {
+      width: 120px;
+      height: 40px;
+    }
+  
+    .welcomefooter-downplaystore-subtext {
+      font-size: 8px;
+    }
+  
+    .welcomefooter-downplaystore-subtext1 {
+      font-size: 10px;
+    }
+  
+    .welcomefooterviwdownimage{
+      height: 380px;
+      width: 90%;
+    }
+    
+  }

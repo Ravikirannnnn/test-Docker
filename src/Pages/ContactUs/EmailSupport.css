@@ -1,0 +1,159 @@
+.overall-em-support{
+  padding: 7%;
+  padding-top: 4%;
+}
+.sup-title{
+  width: 65%;
+}
+.sup-title h1{
+  font-family: "Poppins-Medium";
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 38px;
+  text-align: left;
+}
+.sup-title p{
+  font-family: "PlusJakartaSans-Regular";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.24px;
+  text-align: left;
+}
+.email-supp-body{
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  width: 60%;
+}
+.in-div{
+  padding: 32px 0 16px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #ced4d6;
+    border-radius: 0;
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 16px;
+    -webkit-font-smoothing: inherit;
+    transition: border-color .2s ease-in-out;
+  font-family: "OpenSans-Regular";
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.in-div input{
+  border: 0px solid transparent;
+ background-color: transparent;
+}
+.in-div-00{
+  padding: 32px 0 16px;
+    background-color: transparent;
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 16px;
+    -webkit-font-smoothing: inherit;
+    transition: border-color .2s ease-in-out;
+  font-family: "OpenSans-Regular";
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.in-div-00 textarea{
+  height: 150px;
+  background-color: transparent;
+  padding: 2%;
+}
+.email-supp-body p{
+  font-family: "Graphik Web", sans-serif;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 22px;
+    text-align: left;
+}
+.email-supp-body button{
+  display: inline-block;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 24px;
+    background-color: #6d6e6e;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Graphik Web Medium", sans-serif;
+    transition: border-color .2s ease-in-out, color .2s ease-in-out, background-color .2s ease-in-out, opacity .2s ease-in-out;
+    cursor: pointer;
+    text-decoration: none !important;
+    white-space: nowrap;
+    margin-bottom: 4%;
+}
+
+@media (max-width:800px) {
+  .email-supp-body{
+    width: 80%;
+  }
+  .sup-title{
+    width: 70%;
+  }
+  .sup-title h1{
+    font-size: 26px;
+    line-height: 34px;
+  }
+  .sup-title p{
+    font-size: 14px;
+    line-height: 18.24px;
+  }
+  .in-div{
+    padding: 28px 0 14px;
+      font-size: 14px;
+  }
+  .in-div-00{
+    padding: 28px 0 14px;
+      font-size: 14px;
+  }
+  .in-div-00 textarea{
+    height: 130px;
+  }
+  .email-supp-body p{
+      font-size: 14px;
+      line-height: 20px;
+  }
+  .email-supp-body button{
+      padding: 10px 20px;
+      font-size: 14px;
+  }
+}
+@media (max-width:500px) {
+    .email-supp-body{
+    width: 100%;
+  }
+  .sup-title{
+    width: 100%;
+  }
+  .sup-title h1{
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .sup-title p{
+    font-size: 12px;
+    line-height: 16.24px;
+  }
+  .in-div{
+    padding: 20px 0 10px;
+      font-size: 12px;
+  }
+  .in-div-00{
+    padding: 20px 0 10px;
+      font-size: 12px;
+  }
+  .in-div-00 textarea{
+    height: 100px;
+  }
+  .email-supp-body p{
+      font-size: 12px;
+      line-height: 18px;
+  }
+  .email-supp-body button{
+      padding: 8px 16px;
+      font-size: 12px;
+  }
+}

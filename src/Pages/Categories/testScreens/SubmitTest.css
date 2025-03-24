@@ -1,0 +1,233 @@
+.submit-main-container{
+  margin-left: 14%;
+  margin-right: 14%;
+  border-radius: 10px;
+  padding: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-top: 2%;
+}
+.sub-lang-container-1,.sub-lang-container{
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
+  /* justify-content: space-around; */
+}
+.sub-lang-text-1,.sub-lang-text{
+  font-family: 'OpenSans-Regular';
+font-size: 16px;
+font-weight: 400;
+line-height: 21.79px;
+text-align: left;
+margin-left: 15%;
+width: 200px;
+}
+.sub-lang-icon>img,.sub-lang-icon-1>img{
+  width:15px;
+  height:16px;
+  /* border-radius: 10px; */
+}
+.subtest-top-text{
+  font-family: 'OpenSans-Regular';
+font-size: 18px;
+font-weight: 600;
+line-height: 24.51px;
+text-align: left;
+margin-bottom: 2%;
+}
+.marks-title{
+  font-family: 'OpenSans-Regular';
+font-size: 20px;
+font-weight: 400;
+line-height: 27.24px;
+letter-spacing: 0.01em;
+text-align: left;
+padding: 1%;
+}
+.marks-sub{
+  font-family: 'OpenSans-Regular';
+font-size: 16px;
+font-weight: 400;
+line-height: 21.79px;
+text-align: center;
+padding: 1%;
+}
+.marks-sub>strong{
+  font-family: 'OpenSans-Regular';
+font-size: 24px;
+font-weight: 400;
+line-height: 21.79px;
+text-align: center;
+color: #ff6f6f;
+}
+.marks-show{
+  margin-left: 14%;
+  margin-right: 14%;
+  margin-top: 2%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+}
+.ans-container{
+  display: grid;
+  grid-template-columns: 49% 2% 49%;
+  margin-left: 14%;
+  margin-right: 14%;
+  margin-top: 2%;
+  /* padding: 2%; */
+}
+.crt-ans,.incrt-ans{  
+  font-family: 'OpenSans-Regular';
+font-size: 18px;
+font-weight: 400;
+line-height: 24.51px;
+text-align: left;
+}
+.crt-ans-num,.incrt-ans-num{
+  font-family: "Poppins-Regular";
+font-size: 24px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0.012em;
+text-align: left;
+/* color: #FF5F67; */
+}
+.ans-sub-1,.ans-sub-2{
+  align-items: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5%;
+  border-radius: 12px;
+}
+.for-Align{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4%;
+
+}
+.ans-btn{
+  align-content: center;
+  width: 22%;
+height: 50px;
+background-color: #FF5F67;
+border-radius: 30px;
+font-family: "OpenSans-Regular";
+font-size: 17px;
+font-weight: 400;
+line-height: 23.15px;
+text-align: center;
+color:rgb(255, 255, 255);
+cursor: pointer;
+}
+.ans-wrap{
+  padding-bottom: 10%;
+}
+
+@media (max-width:800px) {
+
+.sub-lang-text-1,.sub-lang-text{
+font-size: 14px;
+font-weight: 400;
+line-height: 21.79px;
+}
+.sub-lang-icon>img,.sub-lang-icon-1>img{
+  width:13px;
+  height:13px;
+  /* border-radius: 10px; */
+}
+.subtest-top-text{
+font-size: 16px;
+font-weight: 600;
+line-height: 24.51px;
+}
+.marks-title{
+font-size: 18px;
+font-weight: 400;
+line-height: 22.24px;
+}
+.marks-sub{
+font-size: 13px;
+font-weight: 400;
+line-height: 21.79px;
+}
+.marks-sub>strong{
+font-size: 21px;
+font-weight: 400;
+line-height: 21.79px;
+}
+
+.crt-ans,.incrt-ans{  
+font-size: 16px;
+font-weight: 400;
+line-height: 22.51px;
+}
+.crt-ans-num,.incrt-ans-num{
+font-size: 22px;
+font-weight: 600;
+line-height: 36px;
+}
+.ans-btn{
+  margin-top: 2%;
+  width: 27%;
+height: 35px;
+font-size: 16px;
+line-height: 23.15px;
+}
+}
+@media (max-width:480px) {
+
+  .sub-lang-text-1,.sub-lang-text{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21.79px;
+  }
+  .sub-lang-icon>img,.sub-lang-icon-1>img{
+    width:11px;
+    height:11px;
+    /* border-radius: 10px; */
+  }
+  .subtest-top-text{
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24.51px;
+  }
+  .marks-title{
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18.24px;
+  }
+  .marks-sub{
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 18.79px;
+  }
+  .marks-sub>strong{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.79px;
+  }
+  
+  .crt-ans,.incrt-ans{  
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 18.51px;
+  }
+  .crt-ans-num,.incrt-ans-num{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  }
+  .ans-btn{
+    margin-top: 5%;
+    width: 45%;
+  height: 25px;
+  font-size: 12px;
+  line-height: 20.15px;
+}
+ }

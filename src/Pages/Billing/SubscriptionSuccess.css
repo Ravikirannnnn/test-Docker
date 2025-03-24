@@ -1,0 +1,81 @@
+/* General Body and Container Styles */
+/* body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f7fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #333;
+} */
+
+/* Main Container */
+.subscription-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 30px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  /* min-height: 100%; */
+  /* border:2px solid white; */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dark{
+  background-color: #1C1C1E;
+}
+
+/* Title Styling */
+.subscription-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #4caf50; /* Success color */
+}
+
+/* Message Styling */
+.subscription-container p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* Button Styling for Redirect */
+.redirect-btn {
+  background-color: #007bff; /* Blue background */
+  color: #fff;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.redirect-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Loading Spinner */
+.loading-spinner {
+  font-size: 40px;
+  color: #007bff;
+  margin: 20px 0;
+}
+
+/* Error Message */
+.error-message {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}

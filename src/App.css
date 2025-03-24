@@ -1,0 +1,271 @@
+.App {
+  text-align: center;
+}
+.body{
+ background-color: black;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.background-white {
+  background-color: white;
+  color: black;
+}
+
+.backgrond-black {
+  background-color: #1C1C1E;
+  color: white;
+}
+input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: #fff;
+  border: 2px solid #ff5f67; /* Primary color for border */
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  position: relative;
+  margin-right: 8px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+input[type="radio"]:checked {
+  background-color: #ff5f67; /* Primary color when checked */
+  border-color: #ff5f67;
+}
+
+input[type="radio"]::before {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 2.5px;
+  left: 2.5px;
+  /* right: 4px; */
+  transform: scale(0);
+  transition: transform 0.2s ease;
+}
+
+input[type="radio"]:checked::before {
+  transform: scale(1);
+}
+
+
+
+.react-switch-bg{
+  height: 18px !important;
+    width: 45px !important;
+    margin: 0px;
+    margin-left: 1.5px !important;
+    position: relative;
+    background: #FF5F67 !important;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: background 0.25s;
+    display: flex;
+    align-items: center;
+}
+.react-switch-bg div{
+  height: 18px !important;
+  width: 22px !important;
+}
+.react-switch-handle{
+  height: 100% !important;
+    width: 40% !important;
+    background: rgb(255, 255, 255);
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    /* transform: translateX(0px) !important; */
+    left: 0px !important;
+    top: 0px !important;
+    padding: 0px !important;
+    bottom: 3px;
+    outline: 0px;
+    border: 0px;
+    transition: background-color 0.25s, transform 0.25s, box-shadow 0.15s;
+}
+
+.loader {
+  width: 16px;
+  height: 16px;
+  border: 2px solid #fff;
+  border-top: 2px solid transparent;
+  border-radius: 50%;
+  animation: spin 0.6s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+/* #radio1,#radio2,#radio3,#radio4,#radio{
+  accent-color: #ff5f67;
+} */
+/* input[type='radio']:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #d1d3d1;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #FF5F67;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid rgb(164, 161, 161);
+} */
+
+
+.CircularProgressbar {
+  /*
+   * This fixes an issue where the CircularProgressbar svg has
+   * 0 width inside a "display: flex" container, and thus not visible.
+   */
+  width: 100%;
+  /*
+   * This fixes a centering issue with CircularProgressbarWithChildren:
+   * https://github.com/kevinsqi/react-circular-progressbar/issues/94
+   */
+  vertical-align: middle;
+}
+
+.CircularProgressbar .CircularProgressbar-path {
+  stroke: #FF5F67 !important;
+  stroke-linecap: round;
+  -webkit-transition: stroke-dashoffset 0.5s ease 0s;
+  transition: stroke-dashoffset 0.5s ease 0s;
+}
+
+.CircularProgressbar .CircularProgressbar-trail {
+  stroke: #d6d6d6;
+  /* Used when trail is not full diameter, i.e. when props.circleRatio is set */
+  stroke-linecap: round;
+}
+
+.CircularProgressbar .CircularProgressbar-text {
+  fill: #FF5F67 !important;
+  font-size: 20px;
+  dominant-baseline: middle;
+  text-anchor: middle;
+}
+
+.CircularProgressbar .CircularProgressbar-background {
+  fill: #d6d6d6;
+}
+
+/*
+ * Sample background styles. Use these with e.g.:
+ *
+ *   <CircularProgressbar
+ *     className="CircularProgressbar-inverted"
+ *     background
+ *     percentage={50}
+ *   />
+ */
+.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-background {
+  fill: #FF5F67 !important;
+}
+
+.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-text {
+  fill: #fff;
+}
+
+.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-path {
+  stroke: #fff;
+}
+
+.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-trail {
+  stroke: transparent;
+}
+.react-calendar__tile--active{
+  background: #FF5F67 !important;
+  border-radius: 8px !important;
+}
+
+.react-calendar__tile--now {
+  background: #000 !important;
+  color: #fff !important;
+  border-radius: 8px !important;
+}
+.react-calendar__month-view__weekdays{
+  color: #000;
+}
+/* Hide the 10-sec forward and backward buttons on iOS */
+/* video::-webkit-media-controls-enclosure {
+  overflow: hidden;
+}
+
+video::-webkit-media-controls-panel {
+  display: flex !important;
+}
+
+video::-webkit-media-controls-seek-back-button,
+video::-webkit-media-controls-seek-forward-button {
+  display: none !important;
+} */
+/* Hide the forward and backward buttons in Safari */
+@supports (-webkit-touch-callout: none) {
+  .ios-hide {
+    display: none !important;
+  }
+}
+
+
+@supports (-webkit-touch-callout: none) {
+  .rhap_volume-container {
+    display: none !important;
+  }
+}

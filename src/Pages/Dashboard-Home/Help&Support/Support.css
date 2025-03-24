@@ -1,0 +1,235 @@
+.support-main-container{
+  padding-top: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+  /* padding-bottom: 10%; */
+}
+.left-arrow-main-008{
+  /* background-color: #d8d8df; */
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  align-content: center;
+box-shadow: 0px 0px 1px 1px #00BBD140;
+
+}
+.edit-profile-flex-start-008{
+  display:flex;
+  flex-direction: row;
+  /* justify-content:safe; */
+  /* grid-template-columns:5% 20% ; */
+  
+}
+.edit-profile-title-008{
+  font-family: "PlusJakartaSans-Bold";
+font-size: 32px;
+font-weight: 400;
+line-height: 43px;
+text-align: left;
+margin-left: 2%;
+}
+.note-supp{
+  font-family: "PlusJakartaSans-Regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  margin-left: 0.5%;
+  margin-top: 1%;
+}
+.edit-profile-left-arrow-008>img{
+  width: 11px;
+  height: 21px;
+  align-items: center;
+  text-align: center;
+  /* border-radius: 50%; */
+}
+.support-contents-holder{
+  padding-left: 3%;
+  padding-top: 2%;
+  padding-bottom: 4%;
+  padding-right: 4%;
+  border-radius: 10px;
+  margin-top: 3%;
+box-shadow: 0px 0px 1px 1px #00BBD140;
+
+ }
+ .content-title{
+  font-family: 'OpenSans-Regular';
+font-size: 20px;
+font-weight: 700;
+line-height: 18px;
+text-align: left;
+margin-left: 1%;
+ }
+ .title-icon>img{
+  width:16px;
+  height:8px;
+ }
+ .content-title-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ }
+ .support-top-text-1,.support-top-text-2,.support-top-text-3{
+  font-family: 'OpenSans-Regular';
+font-size: 18px;
+font-weight: 400;
+line-height: 13px;
+text-align: left;
+color: #FF5F67;
+ }
+ .support-down-text-1,.support-down-text-2,.support-down-text-3{
+  font-family: 'OpenSans-Regular';
+font-size: 18px;
+font-weight: 400;
+line-height: 24.51px;
+text-align: left;
+padding-top: 1%;
+ }
+ .support-content-1{
+  display: flex;
+  flex-direction: column;
+  padding-top: 4%;
+  border-bottom: 1px solid #505050;
+  padding-bottom: 1%;
+  margin-left: 1%;
+ }
+ .support-content-2,.support-content-3{
+  display: flex;
+  flex-direction: column;
+  padding-top: 1.5%;
+  border-bottom: 1px solid #505050;
+  padding-bottom: 1%;
+  margin-left: 1%;
+  
+ }
+.support-down-text-3>input,.support-down-text-2>input,.support-down-text-1>input{
+  width: 100%;
+  border: 0;
+}
+.submit-btn-support{
+  align-content: center;
+  margin-top: 5%;
+  /* float: right; */
+  width: 20%;
+height: 50px;
+background-color: #FF5F67;
+border-radius: 30px;
+font-family: "OpenSans-Regular";
+font-size: 20px;
+font-weight: 400;
+line-height: 23.15px;
+text-align: center;
+color:rgb(255, 255, 255);
+cursor: pointer 
+}
+.hel-tit{
+  margin-left: -18%;
+}
+@media only screen and (max-width: 780px) {
+  .support-main-container {
+    padding-left: 5%;
+    padding-right: 5%;
+    /* display: flex; */
+    /* align-items: center; */
+  }
+  .hel-tit{
+    margin-left: -10%;
+  }
+  .edit-profile-title-008 {
+    font-size: 28px;
+    margin-left: 1%;
+  }
+
+  .content-title {
+    font-size: 18px;
+  }
+
+  .support-top-text-1,
+  .support-top-text-2,
+  .support-top-text-3 {
+    font-size: 16px;
+  }
+
+  .support-down-text-1,
+  .support-down-text-2,
+  .support-down-text-3 {
+    font-size: 16px;
+  }
+
+  .support-contents-holder{
+    margin-top: 5%;
+    /* margin-bottom: 5%; */
+  }
+    .submit-btn-support {
+      margin-top: 10%;
+      margin-right: 30%;
+      height:45px;
+      width: 40%;
+      font-size: 20px;
+      align-items: center;
+      cursor: pointer 
+    }
+}
+
+/* Responsive Styles for max-width: 480px */
+@media only screen and (max-width: 480px) {
+  .support-main-container {
+    padding-left: 7%;
+    padding-right: 7%;
+    align-content: center;
+    padding-bottom: 20%;
+  }
+
+  .left-arrow-main-008 {
+    width: 30px;
+    height: 30px;
+    margin-top: 3%;
+
+  }
+  .edit-profile-left-arrow-008>img{
+    width:10px;
+    height: 16px;
+  }
+  .edit-profile-title-008 {
+    font-size: 20px;
+    margin-left: 2%;
+  }
+
+  .content-title {
+    font-size: 16px;
+  }
+
+  .title-icon > img {
+    width: 14px;
+    height: 7px;
+  }
+
+  .support-top-text-1,
+  .support-top-text-2,
+  .support-top-text-3,
+  .support-down-text-1,
+  .support-down-text-2,
+  .support-down-text-3 {
+    font-size: 14px;
+  }
+.support-contents-holder{
+  margin-top: 6%;
+  /* margin-bottom: 5%; */
+  padding-top: 5%;
+}
+  .submit-btn-support {
+    margin-top: 10%;
+    margin-right: 30%;
+    height:35px;
+    width: 40%;
+    font-size: 16px;
+    align-items: center;
+    cursor: pointer 
+  }
+  .note-supp{
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

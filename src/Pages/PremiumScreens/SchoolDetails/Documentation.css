@@ -1,0 +1,248 @@
+.overall-ment{
+  margin-left: 14%;
+  margin-right: 14%;
+  margin-top: 2%;
+  padding-bottom: 12%;
+}
+.ment-add{
+  font-family: 'OpenSans-Regular';
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+text-align: right;
+color: #ff5f67;
+margin-top: 3%;
+}
+.ment-title{
+  font-family: 'OpenSans-Regular';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+margin-top: 4%;
+  
+}
+.ment-red-text{
+  font-family: 'OpenSans-Regular';
+font-size: 16px;
+font-weight: 400;
+line-height: 21.79px;
+text-align: left;
+color: #ff5f67;
+margin-top: 3%;
+}
+.ment-content img{
+  width: 24px;
+  height: 24px;
+}
+.ment-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'OpenSans-Regular';
+font-size: 16px;
+font-weight: 600;
+line-height: 21.79px;
+text-align: left;
+border-bottom: 1px solid #2C2C2E;
+padding-bottom: 1%;
+padding-top: 1%;
+}
+.ment-content-02{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'OpenSans-Regular';
+font-size: 16px;
+font-weight: 600;
+line-height: 21.79px;
+text-align: left;
+border-bottom: 1px solid #2C2C2E;
+padding-bottom: 1%;
+padding-top: 1%;
+margin-top: 3%;
+}
+.ment-content-02 img{
+  width: 24px;
+  height: 24px;
+}
+.ment-btn{
+  align-content: center;
+  margin-top: 8%;
+  float: right;
+  width: 20%;
+height: 45px;
+background-color: #FF5F67;
+border-radius: 30px;
+font-family: "OpenSans-Regular";
+font-size: 17px;
+font-weight: 600;
+line-height: 23.15px;
+text-align: center;
+color:rgb(255, 255, 255);
+cursor: pointer;
+}
+.sd-in2{
+  font-family: 'OpenSans-Regular';
+font-size: 18px;
+font-weight: 400;
+line-height: 24.51px;
+text-align: left;
+padding-bottom: 1%;
+display: flex;
+flex-direction: column;
+margin-top: 2%;
+margin-bottom: 2%;
+border-bottom: 1px solid #4F4F4F;
+}
+.in-inside-img-upload2 img{
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.in-inside-img-upload2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+@media (max-width:800px) {
+  .in-inside-img-upload2 img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  .sd-in2{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24.51px;
+    padding-bottom: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    }
+  .overall-ment{
+    margin-left: 14%;
+    margin-right: 10%;
+    margin-top: 2%;
+    padding-bottom: 14%;
+  }
+  .ment-add{
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 3%;
+  }
+  .ment-title{
+    font-size: 16px;
+    line-height: 20px;
+  margin-top: 4%;
+    
+  }
+  .ment-red-text{
+  font-size: 14px;
+  line-height: 21.79px;
+  margin-top: 3%;
+  }
+  .ment-content img{
+    width: 20px;
+    height: 20px;
+  }
+  .ment-content{
+  font-size: 14px;
+  line-height: 21.79px;
+  padding-bottom: 1.5%;
+  padding-top: 1.5%;
+  }
+  .ment-content-02{
+  font-size: 14px;
+  line-height: 21.79px;
+  padding-bottom: 1.5%;
+  padding-top: 1.5%;
+  margin-top: 3%;
+  }
+  .ment-content-02 img{
+    width: 20px;
+    height: 20px;
+  }
+  .ment-btn{
+    align-content: center;
+    margin-top: 8%;
+    float: right;
+    width: 20%;
+  height: 35px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 23.15px;
+  text-align: center;
+  color:black;
+  cursor: pointer;
+  }
+}
+@media (max-width:480px) {
+  .in-inside-img-upload2 img{
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+  }
+
+  .sd-in2{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24.51px;
+    padding-bottom: 1%;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    }
+  .overall-ment{
+    margin-left: 14%;
+    margin-right: 8%;
+    margin-top: 2%;
+    padding-bottom: 20%;
+  }
+  .ment-add{
+  font-size: 11px;
+  line-height: 20px;
+  margin-top: 3%;
+  }
+  .ment-title{
+    font-size: 12px;
+    line-height: 18px;
+  margin-top: 4%;
+  }
+  .ment-red-text{
+  font-size: 11px;
+  line-height: 21.79px;
+  margin-top: 3%;
+  }
+  .ment-content img{
+    width: 15px;
+    height: 15px;
+  }
+  .ment-content{
+  font-size: 11px;
+  line-height: 21.79px;
+  padding-bottom: 1.5%;
+  padding-top: 1.5%;
+  }
+  .ment-content-02{
+  font-size: 11px;
+  line-height: 21.79px;
+  padding-bottom: 1.5%;
+  padding-top: 1.5%;
+  margin-top: 3%;
+  }
+  .ment-content-02 img{
+    width: 15px;
+    height: 15px;
+  }
+  .ment-btn{
+    align-content: center;
+    margin-top: 10%;
+    float: right;
+    width: 40%;
+  height: 25px;
+  font-size: 12px;
+  line-height: 23.15px;
+  }
+}

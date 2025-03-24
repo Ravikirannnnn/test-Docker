@@ -1,0 +1,993 @@
+.img-mem{
+position: relative;
+}
+.overall-im{
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 8%;
+  padding-bottom: 10%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+.all-top-contents-container{
+  margin-bottom: 10%;
+}
+.img-mem img{
+  width: 100%;
+}
+.img-mem h3{
+  position: absolute;
+  top: 5%;
+  font-family: "PlusJakartaSans-Bold";
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 59px;
+  text-align: left;
+width: 40%;
+left: 5%;
+color: #ffffff;
+}
+.im-content-img img{
+  width: 503px;
+border-radius: 32px;
+}
+.im-contnet-text{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.im-contnet-text h2{
+  font-family: "PlusJakartaSans-Bold";
+font-size: 36px;
+font-weight: 400;
+line-height: 45.6px;
+text-align: left;
+}
+.im-contnet-text p{
+  font-family: 'PlusJakartaSans-Regular';
+  font-size: 22px;
+  line-height: 1.6;
+  margin-top: 10px;
+  text-align: left;
+width:fit-content;
+}
+.im-content-main{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  margin-bottom: 5%;
+}
+.client-img{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* margin-top: 5%; */
+}
+.client-img img{
+  width: 100%px;
+  height: 550px;
+  border-radius: 5px;
+}
+.client-img h5{
+  font-family: "PlusJakartaSans-Regular";
+font-size: 38px;
+font-weight: 400;
+line-height: 54.18px;
+text-align: left;
+width: 30%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.middle-text h3{
+  font-family: "PlusJakartaSans-Bold";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 38.4px;
+  text-align: center;
+  
+}
+.middle-text p{
+  font-family: 'PlusJakartaSans-Regular';
+  font-size: 22px;
+  line-height: 1.6;
+  margin-top: 10px;
+text-align: center;
+width: 100%;
+}
+.middle-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 7%;
+  gap: 3rem;
+  align-items: center;
+}
+
+
+.donation-section h3{
+  margin-top: 5%;
+  font-family: "PlusJakartaSans-Bold";
+font-size: 36px;
+font-weight: 400;
+line-height: 38.78px;
+text-align: center;
+}
+.dona-top-top h4,.dona-top-middle h4{
+  font-family: "PlusJakartaSans-Regular";
+font-size: 22px;
+font-weight: bold;
+line-height: 32.32px;
+/* letter-spacing: .1rem; */
+text-align: left;
+margin-bottom: 1%;
+margin-top: 1%;
+/* color: #000; */
+}
+.n-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.donation-container{
+  border: 1px solid #FFFFFF;
+  border-radius: 15px;
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  gap:1rem;
+  margin-top: 4%;
+  width: 1000px;
+  
+}
+.don-freq-cont,.don-amount{
+  display: flex;
+  flex-direction: row;
+  gap: 2%;
+  flex-wrap: wrap;
+}
+.time-don,.month-don,.year-don{
+  font-family: "OpenSans-Regular";
+font-size: 18px;
+font-weight: 400;
+line-height: 25.2px;
+text-align: center;
+border: 1px solid #FFFFFF;
+border-radius: 7px;
+padding: 20px;
+}
+.dollar-1{
+  font-family: "OpenSans-Regular";
+font-size: 18px;
+font-weight: 400;
+line-height: 25.2px;
+text-align: center;
+border: 1px solid #FFFFFF;
+border-radius: 7px;
+padding: 20px;
+/* margin-top: 4%; */
+width:fit-content;
+margin: 1%;
+box-sizing: border-box;
+transition: border 0.2s ease-in-out, outline 0.2s ease-in-out;
+}
+
+.dollar-1:hover{
+  outline: 2px solid #eaaf4a; /* Instead of changing border */
+  border: 1px solid #eaaf4a; /* Keep border size the same */
+  cursor: pointer;
+}
+
+.donate-div{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 0px;
+}
+.donate-btn{
+  font-family: "OpenSans-Regular";
+font-size: 18px;
+font-weight: 400;
+line-height: 25.2px;
+text-align: center;
+border: 1px solid #FFFFFF;
+border-radius: 7px;
+padding: 10px;
+margin-top: 1%;
+width:fit-content;
+/* background-color: #FFFFFF; */
+color: #000;
+margin-bottom: 5%;
+/* color: orange; */
+background-color: #eaaf4a;
+transition: border 0.2s ease-in-out, outline 0.2s ease-in-out;
+}
+
+.donate-heading {
+  font-family: "PlusJakartaSans-Regular";
+  font-size: 21.5px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.donate-select-container {
+  margin: 15px 0;
+  width: 100%;
+  max-width: 350px;
+}
+
+.donate-label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.donate-dropdown {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: #000;
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Form Labels and Inputs */
+.modal-form label {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.modal-form input {
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #333;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.modal-form input:focus {
+  border-color: #00b1ff;
+  outline: none;
+  box-shadow: 0px 0px 5px rgba(0, 177, 255, 0.5);
+}
+
+.donate-input{
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+  margin-top:15%;
+}
+
+.confirm{
+  padding: 15px 30px;
+  background-color: #eaaf4a;
+  color: black;
+  font-size: 1.1rem;
+  border: 1px solid white;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 0 auto;
+  
+}
+.selected{
+  background-color: #eaaf4a; /* Highlight selected option */
+  color: #000;
+}
+.payment-info p{
+  font-family: "OpenSans-Semibold";
+font-size: 14px;
+font-weight: 400;
+line-height: 17.64px;
+text-align: left;
+}
+.don-inllll{
+  font-family: "PlusJakartaSans-Regular";
+font-size: 12.43px;
+font-weight: 400;
+line-height: 21.26px;
+text-align: left;
+border-bottom: 1px solid whitesmoke;
+margin-top: 3%;
+margin-bottom: 3%;
+}
+.don-inllll input {
+  width: 100%;
+  background: #000;
+  border: 2px solid #444; /* Slightly lighter border for better visibility */
+  color: #fff;
+  padding: 12px 15px;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+.end-thankyou {
+  color: black;
+  border-radius: 35px;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  background: linear-gradient(120deg, #FFDEE9, #B5FFFC, #A1C4FD, #FFD3B6);
+  background-size: 400% 400%;
+  animation: gradientShift 10s ease-in-out infinite;
+  overflow: hidden;
+  position: relative;
+  perspective: 1000px; /* Adds depth to the 3D animations */
+  margin-bottom: 4%;
+  margin-top: 4%;
+  z-index: 10;
+}
+
+/* Smooth gradient background shift */
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Create a glowing circle that moves in a circular motion */
+.end-thankyou::before {
+  content: '';
+  position: absolute;
+  top: -10%;
+  left: -10%;
+  width: 150%;
+  height: 150%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.5), transparent 80%);
+  animation: circularMotion 8s linear infinite;
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0.7;
+  filter: blur(60px);
+}
+
+@keyframes circularMotion {
+  0% {
+    transform: translate(-30%, -30%) rotate(0deg);
+  }
+  50% {
+    transform: translate(30%, 30%) rotate(180deg);
+  }
+  100% {
+    transform: translate(-30%, -30%) rotate(360deg);
+  }
+}
+
+/* Spinning lines or light effect */
+.end-thankyou::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: conic-gradient(from 0deg, #ffffff10, #ffffff00 10%, #ffffff10 20%);
+  animation: hypnoticSpin 6s infinite linear;
+  pointer-events: none;
+  z-index: 2;
+}
+
+@keyframes hypnoticSpin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Floating objects moving up and down */
+.floating-objects {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+  animation: floatUpDown 3s ease-in-out infinite;
+  pointer-events: none;
+  z-index: 3;
+}
+
+@keyframes floatUpDown {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-30px) rotate(45deg);
+  }
+}
+
+/* Orbiting orbs with 3D effect */
+.orbiting-orbs {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80px;
+  height: 80px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.15), transparent 60%);
+  border-radius: 50%;
+  animation: orbitAnimation 10s linear infinite;
+  pointer-events: none;
+  z-index: 4;
+  transform-origin: center;
+  transform-style: preserve-3d;
+}
+
+@keyframes orbitAnimation {
+  0% {
+    transform: rotateY(0deg) rotateX(0deg);
+  }
+  100% {
+    transform: rotateY(360deg) rotateX(360deg);
+  }
+}
+
+/* Rotating mandala in the center */
+.mandala-center {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 450px;
+  height: 450px;
+  background-image: url('/assets/flower-removebg-preview.png'); /* Replace with your mandala image URL */
+  background-size: cover;
+  animation: rotateMandala 15s linear infinite;
+  pointer-events: none;
+  z-index: 5;
+  transform-origin: center;
+}
+
+@keyframes rotateMandala {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.2);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+
+
+.end-thankyou h2{
+  font-family: "IntegralCF-Regular";
+font-size: 46px;
+font-weight: 400;
+line-height: 43.2px;
+text-align: center;
+z-index: 1000;
+}
+.end-thankyou p{
+  font-family: "OpenSans-Regular";
+font-size: 22px;
+font-weight: 800;
+line-height: 25.2px;
+text-align: center;
+z-index: 1000;
+}
+.visa-icons img{
+  width: 45px;
+  height: 25px;
+  border-radius: 25px;
+}
+.visa-icons{
+  display: flex;
+  flex-direction: row;
+  gap: 1%;
+}
+.payment-info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.new-nnn{
+  font-family: "PlusJakartaSans-Regular";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 32.72px;
+  text-align: center;
+}
+@media (max-width:1200px) {
+  .im-content-img img{
+    width: 383px;
+  border-radius: 32px;
+  }
+  .im-contnet-text{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .client-img img{
+    width: 447px;
+    height: 450px;
+    border-radius: 5px;
+  }
+  .client-img h5{
+  font-size: 36px;
+  width: 40%;
+  }
+  .im-contnet-text h2{
+  font-size: 28px;
+  line-height: 35.6px;
+  }
+  .im-contnet-text p{
+  font-size: 18px;
+  }
+  .visa-icons img{
+    width: 30px;
+    height: 20px;
+  }
+  .donation-container{
+    width: 800px;
+  }
+  .donation-section h3{
+  font-size: 30px;
+  line-height: 38.78px;
+  }
+  .dona-top-top h4,.dona-top-middle h4{
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 40.32px;
+  text-align: left;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  }
+  .time-don,.month-don,.year-don{
+    font-family: "OpenSans-Regular";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.2px;
+  text-align: center;
+  border: 1px solid #FFFFFF;
+  border-radius: 7px;
+  padding: 20px;
+  }
+}
+
+@media (max-width:800px) {
+    .overall-im{
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-top: 8%;
+      padding-bottom: 10%;
+      background-color: black;
+    }
+    .all-top-contents-container{
+      margin-bottom: 10%;
+    }
+    .img-mem h3{
+      /* top: 30%; */
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 40px;
+    width: 40%;
+    /* left: 5%; */
+    }
+    .im-content-img img{
+      width: 299px;
+    border-radius: 32px;
+    }
+    .im-contnet-text{
+      width: 40%;
+    }
+    .im-contnet-text h2{
+    font-size: 22px;
+    line-height: 25.6px;
+    }
+    .im-contnet-text p{
+    font-size: 15px;
+    line-height: 20.2px;
+    }
+    .client-img img{
+      width: 307px;
+      height: 320px;
+      border-radius: 5px;
+    }
+    .client-img h5{
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 38.18px;
+    text-align: left;
+    width: 40%;
+    }
+    .middle-text h3{
+      font-size: 26px;
+      line-height: 35.4px;
+      
+    }
+    .middle-text p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24.72px;
+    text-align: center;
+    }
+    .middle-text{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 7%;
+      gap: 1.5rem;
+    }
+    .end-thankyou h2{
+      font-family: "IntegralCF-Regular";
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 43.2px;
+    text-align: center;
+    }
+    .end-thankyou p{
+      font-family: "OpenSans-Regular";
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 25.2px;
+    text-align: center;
+    
+    }
+    .end-thankyou{
+      gap: 1rem;
+    }
+    .mandala-center {
+      position: absolute;
+      top: 30%;
+      left: -10%;
+      width: 250px;
+      height: 250px;
+      background-image: url('/assets/flower-removebg-preview.png'); /* Replace with your mandala image URL */
+      background-size: cover;
+      animation: rotateMandala 15s linear infinite;
+      pointer-events: none;
+      z-index: 5;
+      transform-origin: center;
+    }
+    .visa-icons img{
+      width: 50px;
+      height: 35px;
+    }
+    .donation-container{
+      width: auto;
+      max-width:600px;
+    }
+    .visa-icons img{
+      width: 35px;
+      height: 20px;
+    }
+    .donation-section h3{
+    font-size: 26px;
+    line-height: 34.78px;
+    }
+    .dona-top-top h4,.dona-top-middle h4{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40.32px;
+    text-align: left;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    }
+    .time-don,.month-don,.year-don{
+      font-family: "OpenSans-Regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.2px;
+    text-align: center;
+    border: 1px solid #FFFFFF;
+    border-radius: 7px;
+    padding: 15px;
+    }
+    .dollar-1{
+      font-family: "OpenSans-Regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.2px;
+    text-align: center;
+    border: 1px solid #FFFFFF;
+    border-radius: 7px;
+    padding: 15px;
+    /* margin-top: 4%; */
+    width:fit-content;
+    }
+    .total-1{
+      font-family: "OpenSans-Regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.2px;
+    text-align: center;
+    border: 1px solid #FFFFFF;
+    border-radius: 7px;
+    padding: 15px;
+    margin-top: 1%;
+    width:fit-content;
+    background-color: #FFFFFF;
+    color: #000;
+    margin-bottom: 5%;
+    }
+    .payment-info p{
+      font-family: "OpenSans-Semibold";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.64px;
+    text-align: left;
+    }
+    .payment-info{
+      display: flex;
+      flex-direction: column;
+    }
+}
+
+@media (max-width:500px) {
+    .overall-im{
+      padding-left: 0%;
+      padding-right: 0%;
+      padding-top: 8%;
+      padding-bottom: 10%;
+      background-color: black;
+    }
+    .all-top-contents-container{
+      margin-bottom: 10%;
+    }
+    .img-mem h3{
+      /* top: 35%; */
+    font-size: 14px;
+    line-height: 20px;
+    width: 40%;
+    /* left: 5%; */
+    }
+    .im-content-img img{
+      width: 140px;
+    border-radius: 12px;
+    }
+    .im-contnet-text{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .im-contnet-text h2{
+    font-size: 13px;
+    line-height: 12.6px;
+    margin-bottom: 1%;
+    }
+    .im-contnet-text p{
+      /* width: 100%; */
+      font-size: 12px;
+      line-height: 16px;
+      /* padding-top: 15px; */
+    }
+    .im-content-main{
+      margin-bottom: 8%;
+      justify-content: center;
+      padding-left: 3%;
+      padding-right: 3%;
+      gap: 1rem;
+    }
+    .client-img img{
+      width: 147px;
+      height: 150px;
+      border-radius: 5px;
+    }
+    .client-img h5{
+    font-size: 13px;
+    line-height: 16.18px;
+    width: 40%;
+    }
+    .middle-text h3{
+      font-size: 20px;
+      line-height: 22.4px;
+    }
+    .middle-text p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.72px;
+    text-align: center;
+    padding-left: 3%;
+    padding-right: 3%;
+    }
+    .middle-text{
+      margin-top: 10%;
+      gap: 1rem;
+    }
+    
+.donation-section h3{
+  margin-top: 5%;
+font-size: 24px;
+line-height: 30.78px;
+margin-bottom: 3%;
+}
+.dona-top-top h4,.dona-top-middle h4{
+font-size: 20px;
+line-height: 30.32px;
+}
+.donation-container{
+  border: 1px solid #FFFFFF;
+  border-radius: 15px;
+  padding: 4%;
+  margin: 4%;
+  width: auto;
+  max-width: 400px;
+}
+.don-freq-cont, .don-amount {
+  display: flex;
+  flex-direction: row;
+  gap: 10px; /* Equal spacing for both row and column */
+  flex-wrap: wrap;
+}
+
+.time-don,.month-don,.year-don{
+  font-family: "OpenSans-Regular";
+font-size: 12px;
+font-weight: 400;
+line-height: 20.2px;
+text-align: center;
+border: 1px solid #FFFFFF;
+border-radius: 7px;
+padding: 5px;
+}
+.donation-section h3{
+  font-size: 22px;
+  line-height: 24.78px;
+  margin-bottom: 0;
+  }
+  .new-nnn{
+    font-size: 14px;
+  }
+  .dona-top-top h4,.dona-top-middle h4{
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 20.32px;
+  text-align: left;
+  margin-bottom: 2%;
+  margin-top: 1%;
+  }
+
+  .donate-heading{
+    font-size: 20px;
+  }
+.dollar-1{
+  font-family: "OpenSans-Regular";
+font-size: 12px;
+font-weight: 400;
+line-height: 20.2px;
+text-align: center;
+padding: 6px;
+margin-top: 2%;
+}
+.total-1{
+  margin-top: 5%;
+font-size: 12px;
+line-height: 20.2px;
+padding: 6px;
+}
+.payment-info p{
+  font-family: "OpenSans-Semibold";
+font-size: 10px;
+font-weight: 400;
+line-height: 14.64px;
+text-align: left;
+}
+.end-thankyou h2{
+  font-family: "IntegralCF-Regular";
+font-size: 25px;
+font-weight: 400;
+line-height: 23.2px;
+text-align: center;
+}
+.end-thankyou p{
+  font-family: "OpenSans-Regular";
+font-size: 12px;
+font-weight: 800;
+line-height: 15.2px;
+text-align: center;
+
+}
+.end-thankyou{
+  gap: 1rem;
+}
+.mandala-center {
+  position: absolute;
+  top: 40%;
+  left: -20%;
+  width: 200px;
+  height: 200px;
+  background-image: url('/assets/flower-removebg-preview.png'); /* Replace with your mandala image URL */
+  background-size: cover;
+  animation: rotateMandala 15s linear infinite;
+  pointer-events: none;
+  z-index: 5;
+  transform-origin: center;
+}
+.payment-info{
+  flex-direction: column;
+}
+.visa-icons img{
+  width: 25px;
+  height: 15px;
+}
+
+.error-message {
+  margin-top: 18%;
+}
+}
+
+@media (max-width:330px) {
+  .all-top-contents-container{
+    margin-bottom: 10%;
+  }
+  .img-mem h3{
+    /* top: 35%; */
+  font-size: 14px;
+  line-height: 19px;
+  width: 40%;
+  /* left: 5%; */
+  }
+  .im-content-img img{
+    width: 140px;
+  border-radius: 12px;
+  }
+  .im-contnet-text h2{
+  font-size: 10px;
+  line-height: 10.6px;
+  }
+  .im-contnet-text p{
+  font-size: 8px;
+  line-height: 10.2px;
+  }
+  .im-content-main{
+    margin-bottom: 8%;
+  }
+  .client-img img{
+    width: 127px;
+    height: 130px;
+    border-radius: 5px;
+  }
+  .client-img h5{
+  font-size: 13px;
+  line-height: 16.18px;
+  width: 35%;
+  }
+  .middle-text h3{
+    font-size: 16px;
+    line-height: 22.4px;
+  }
+  .middle-text p{
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14.72px;
+  text-align: center;
+  }
+  .middle-text{
+    margin-top: 10%;
+    gap: .5rem;
+  }
+
+ 
+}

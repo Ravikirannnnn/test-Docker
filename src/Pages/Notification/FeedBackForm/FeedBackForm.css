@@ -1,0 +1,208 @@
+/* General Form Container */
+.form-container-ye {
+  max-width: 700px;
+  margin: 50px auto;
+  margin-bottom: 0px;
+  padding: 30px;
+  /* background-color: #f9f9f9; */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(64, 57, 57, 0.692);
+  font-family: "Arial", sans-serif;
+}
+.wrap-form{
+  padding-bottom: 5%;
+}
+
+form h2 {
+  font-family: "PlusJakartaSans-Bold";
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* Form Group Styling */
+.form-group-ye {
+  margin-bottom: 20px;
+}
+
+.form-group-ye-ex {
+  margin-bottom: 20px;
+}
+.form-group-ye label {
+  font-weight: 500;
+  font-size: 16px;
+font-family: "PlusJakartaSans-Regular";
+  margin-bottom: 8px;
+  display: block;
+  text-align: left;
+}
+.form-group-ye-ex label {
+  font-weight: 500;
+  font-size: 16px;
+font-family: "PlusJakartaSans-Regular";
+  margin-bottom: 8px;
+  display: block;
+  text-align: left;
+}
+/* input, */
+textarea,
+.form-group-ye input {
+  width: 100%;
+  padding: 12px 15px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  background: transparent !important;
+}
+
+/* input:focus,
+textarea:focus {
+  border-color: #4caf50;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+} */
+
+/* Name Fields (First & Last Name) */
+.name-fields {
+  display: flex;
+  gap: 15px;
+}
+
+.name-fields input {
+  flex: 1;
+}
+
+textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+small {
+  color: #d9534f;
+  font-size: 10px;
+  margin-top: 5px;
+  display: flex;
+
+
+}
+
+/* Radio Button Styling */
+/* input[type="radio"] {
+  margin-right: 10px;
+} */
+.form-group-ye div{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+}
+.new-ex{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+
+}
+.new-ye-div{
+  display:flex;
+  flex-direction:row;
+  margin-top: 10px;
+}
+.form-group-ye div label {
+  display: flex;
+  align-items:flex-start;
+  margin-bottom: 8px;
+}
+.form-group-ye-ex div label {
+  display: flex;
+  align-items:flex-start;
+  margin-bottom: 8px;
+}
+/* input[type="radio"]:focus {
+  outline: 2px solid #4caf50;
+  outline-offset: 2px;
+} */
+
+/* Star Rating Styling */
+.rating-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+/* Button Styling */
+.ye-button {
+  align-content: center;
+  margin-top: 3%;
+  width: 30%;
+height: 40px;
+border: none;
+background-color: #FF5F67;
+border-radius: 30px;
+font-family: "OpenSans-Regular";
+font-size: 17px;
+font-weight: 400;
+line-height: 23.15px;
+text-align: center;
+color:rgb(255, 255, 255);
+align-items: center;
+display: flex;
+justify-content: center;
+}
+.btn-div{
+  display: flex;
+  justify-content: center;
+}
+/* button:hover {
+  background-color: #218838;
+  transform: translateY(-2px);
+} */
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .form-container-ye {
+    padding: 20px;
+  }
+
+  .name-fields {
+    flex-direction: column;
+  }
+
+  .name-fields input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  form h2 {
+    font-size: 20px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+}
+
+@media (max-width:500px) {
+  .form-container-ye{
+    /* padding: 5%; */
+    margin-top: 1%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 20%;
+  }
+  .form-group-ye label {
+    font-size: 14px;
+  }
+  .ye-button {
+    align-content: center;
+    margin-top: 3%;
+    width: 40%;
+  height: 30px;
+  font-size: 15px;
+  }
+  
+}

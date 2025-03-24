@@ -1,0 +1,412 @@
+.audio-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .responsive-image {
+    width: 550px;
+    height: 350px;
+    border-radius: 10px;
+  }
+  .download-bar-au{
+    width: 30px;
+    float: right;
+  }
+  
+  .rhap_container {
+    background-color: transparent !important;
+    color: white;
+  }
+  .rhap_stacked .rhap_controls-section{
+    margin-top: 50px;
+  }
+  .rhap_progress-indicator{
+    background: #FF5F67;
+  }
+  .rhap_progress-filled{
+    background-color: #FF5F67;
+  }
+  .rhap_time{
+    color: #FFF;
+  }
+  
+  .image-wrapper img {
+    /* width: 100%; */
+    /* height: 100%; */
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .image-wrapper {
+    position: relative;
+    /* height: 250px; */
+    overflow: hidden;
+  }
+  
+  .image-wrapper img {
+    /* width: 100%; */
+    /* max-width: 350px; */
+    /* height: 100%; */
+    /* object-fit: cover; */
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+   /* Style for the card */
+.video-card {
+  display: flex;
+  align-items: center;
+  background-color: #2d2d2d; /* Dark background similar to the image */
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 100%; 
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: white;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+/* Thumbnail style */
+.video-thumbnail img {
+  width: 80px; /* Adjust as needed */
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Info section style */
+.video-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15px;
+  width: 100%;
+}
+
+/* Title style */
+.video-title {
+  font-family: "PlusJakartaSans-Regular";
+  font-size: 16px;
+  margin: 0;
+  display: flex;
+  justify-content: left;
+  float: left;
+}
+
+/* Details (time and preview button) */
+.video-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8px;
+  width: 100%;
+}
+
+.video-time {
+  font-size: 12px;
+  color: #ff6363; /* Red time text */
+  margin-right: 10px;
+}
+
+.video-preview {
+  font-family: "PlusJakartaSans-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24.51px;
+  padding: 2px 6px;
+  background-color: #d3e6f7;
+  color: #000;
+  border-radius: 3px;
+  float: right;
+  margin-right: 10%;
+  align-self: center;
+}
+.new-fav-facv img{
+  width: 25px;
+  height: 25px;
+}
+.react-time-picker__clock-button{
+  display: none !important;
+}
+.react-time-picker__inputGroup__input {
+  width: 30% !important;
+}
+.react-time-picker__inputGroup__leadingZero{
+  display: none !important;
+}
+.new-fav-facv{
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-end;
+  gap: 2rem;
+  padding-right: 1%;
+}
+.new-funct{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.new-audio-pro{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.timer-modal {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  /* gap: 2rem; */
+}
+.rdp-picker {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  display: grid !important;
+  grid-template-columns: 50% 50% 0 !important;
+  user-select: none;
+  height: 105px;
+  width: 80% !important;
+  background-color: transparent !important;
+}
+
+
+.react-ios-time-picker-btn {
+  padding: 10px 15px;
+  font-size: 13px;
+  color: #FF5F67 !important;
+  transition: all 150ms linear;
+  font-weight: 500;
+  z-index: 1;
+}
+.timer-modal h2{
+  margin-bottom: 10%;
+  font-size: 20px;
+  font-family: "PlusJakartaSans-Regular";
+  font-weight: 600;
+}
+.timer-modal h5{
+  font-size: 16px;
+  font-family: "PlusJakartaSans-Regular";
+  font-weight: 600;
+
+}
+.react-ios-time-picker-popup-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+   left: 0;
+   right: 0; 
+}
+.react-ios-time-picker {
+  position: absolute !important;
+  margin-bottom: 50px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 11px 15px #0005;
+  bottom: 27% !important;
+  
+}
+.react-ios-time-picker-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: transparent !important;
+  backdrop-filter: blur(10px);
+  width: 220px;
+  overflow: hidden;
+  /* border-radius: 0 0 15px 17px; */
+  padding: 20px 0;
+  /* box-shadow: inset 0px 0px 5px 0px rgba(255, 159, 10, 0.5); */
+  /* box-shadow: 0 11px 15px -7px rgb(0 0 0 / 20%), 0 24px 38px 3px rgb(0 0 0 / 14%), 0 9px 46px 8px rgb(0 0 0 / 12%); */
+}
+.neww-btn{
+  width: 100%;
+}
+.rdp-text-overlay {
+  position: absolute;
+  /* font-style: italic; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  height: 35px;
+  font-size: 20px;
+  color: transparent !important;
+}
+.neww-btn button{
+  align-content: center;
+  margin-top: 3%;
+  /* float: right; */
+  width: 80%;
+height: 40px;
+background-color: #FF5F67;
+border-radius: 30px;
+font-family: "OpenSans-Regular";
+font-size: 17px;
+font-weight: 400;
+line-height: 23.15px;
+text-align: center;
+color:rgb(255, 255, 255);
+margin-top: 5%;
+border:none;
+}
+.rdp-text-overlay div {
+  /* font-family: "OpenSans-Regular" !important; */
+  font-style: normal !important;
+}
+:root {
+  --main-color-light: #000;  /* Light mode color */
+  --main-color-dark: #fff;   /* Dark mode color */
+}
+
+body.light-mode .rdp-masked-div {
+  color: var(--main-color-light); /* Light mode color */
+  /* background-color: #f5f5f5; */
+}
+
+body.dark-mode .rdp-masked-div {
+  color: var(--main-color-dark); /* Dark mode color */
+  /* background-color: #333; */
+}
+.modal-header{
+  display:none !important;
+}
+.rdp-masked-div {
+  /* color: white !important; */
+  overflow: hidden;
+  height: 105px;
+  position: relative;
+  mask-image: linear-gradient(transparent, 10%, rgba(0, 0, 0, 1), 90%, transparent);
+  -webkit-mask-image: linear-gradient(transparent, 10%, rgba(0, 0, 0, 1), 90%, transparent);
+  width: 100%;
+}
+
+.rhap_button-clear {
+  /* background-color: transparent; */
+  backdrop-filter: blur(10px);
+  border: none;
+  padding: 0;
+  overflow: hidden;
+  cursor: pointer;
+  color: white !important;
+}
+/* Responsive styles */
+@media (max-width: 768px) {
+  .responsive-image {
+    width: 350px;
+    height: 250px;
+  }
+  .video-card {
+    display: flex;
+  align-items: center;
+  background-color: #2d2d2d; /* Dark background similar to the image */
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 100%; 
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: white;
+  overflow: hidden;
+  cursor: pointer;
+  }
+
+  .video-thumbnail img {
+    width: 80px; /* Adjust as needed */
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+  }
+
+  .video-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+  }
+
+  .video-title {
+    font-size: 14px;
+  }
+
+  .video-details {  
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+  
+  }
+  .down-music{
+    padding-bottom: 50px;
+  }
+  .video-preview {
+    font-size: 14px;
+  }
+  .overall-audio{
+    padding-bottom: 5%;
+  }
+}
+
+@media (max-width: 480px) {
+  .video-title {
+    font-size: 12px;
+  }
+  .responsive-image {
+    width: 280px;
+    height: 200px;
+  }
+  .video-details {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+  
+  }
+
+  .video-time {
+    font-size: 12px;
+  color: #ff6363; /* Red time text */
+  margin-right: 10px;
+  }
+  .down-music{
+    padding-bottom: 10px;
+  }
+  .video-preview {
+    font-size: 12px;
+  }
+  .overall-audio{
+    padding-bottom: 15%;
+  }
+  .new-fav-facv img{
+    width: 22px;
+    height: 22px;
+  }
+  .new-fav-facv {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+.timer-modal h2{
+  font-size: 18px;
+  margin-bottom: 8%
+}
+.timer-modal h5{
+  font-size: 15px;
+  /* font-weight: 400; */
+}
+.neww-btn button{
+margin-top: 0%;
+}
+/* .rdp-text-overlay{
+  font-size: 14px !important;
+} */
+}
+
+/* @media (max-width:370px) {
+  .responsive-image {
+    width: 280px;
+    height: 200px;
+  }
+} */

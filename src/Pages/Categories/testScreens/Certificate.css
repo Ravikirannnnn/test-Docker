@@ -1,0 +1,446 @@
+.overall-certi{
+  padding-bottom: 10%;
+}
+.qr-code-00 {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  position: absolute;
+  top: 60%;
+  width: 100%; /* Ensures the container spans the full width of the page */
+}
+
+#react-qrcode-logo{
+width: 100px !important;
+height: 100px !important;
+}
+.certifi-prf-name{
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #c9aa4e;
+  font-size: 38.4px;
+  font-family: 'Cardo-Regular';
+  width:92% ;
+}
+.cer-n-btn{
+  align-content: center;
+  margin-top: 2%;
+  /* float: right; */
+  width: 40%;
+height: 50px;
+background-color: #FF5F67;
+border-radius: 30px;
+font-family: "OpenSans-Regular";
+font-size: 17px;
+font-weight: 400;
+line-height: 23.15px;
+text-align: center;
+color:rgb(255, 255, 255);
+/* margin-left: 40%; */
+cursor: pointer;
+}
+.cer-p-btn{
+  align-content: center;
+  margin-top: 2%;
+  /* float: right; */
+  width: 40%;
+height: 50px;
+border-radius: 30px;
+font-family: "OpenSans-Regular";
+font-size: 17px;
+font-weight: 600;
+line-height: 23.15px;
+text-align: center;
+color:rgb(255, 255, 255);
+/* margin-left: 40%; */
+}
+.cer-btn-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  margin: 50px;
+}
+
+.certificate-img>img{
+  position: relative;
+  width:635px;
+  /* height: 455px; */
+}
+.certificate-container{
+  /* margin-left: 14%; */
+  /* margin-right: 6%; */
+  margin-top: 3%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cerificate-sub-text{
+  font-family: 'OpenSans-Regular';
+font-size: 16px;
+font-weight: 400;
+line-height: 21.79px;
+text-align: center;
+  margin-top: 1%;
+}
+.swal2-confirm{
+background-color: #FF5F67;
+}
+.certi-title{
+  position: absolute;
+    top: 49.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 30.2px;
+    font-family: 'Cardo-Bold';
+    line-height: 32px;
+    width: 92%;
+}
+.certi-sub{
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 18px;
+  font-family: 'Quattrocento-Regular';
+}
+.certi-sub-sub{
+  position: absolute;
+  top: 56.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 18px;
+  font-family: 'Quattrocento-Regular';
+  width: 100%;
+}
+div:where(.swal2-container) .swal2-textarea {
+  height: 3rem !important;
+  padding: .75em;
+  overflow:hidden;
+}
+div:where(.swal2-container) h2:where(.swal2-title) {
+  position: relative;
+  max-width: 100%;
+  margin: 0;
+  padding: .8em 1em 0;
+  color: black !important;
+  font-size: 1.3rem !important;
+}
+.swal2-select {
+  display: none !important;
+  width: 0px !important;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow:0 0 0 30px rgb(255, 255, 255) inset !important;
+}
+
+input{
+  outline: none;
+  /* height: 20px; */
+}
+.sign0ut-text1 {
+  width:60%;
+  display: flex;
+  justify-content: flex-start;
+      flex-direction: row;
+      border-bottom: 1px solid #505050;
+      /* padding-top: 5%; */
+      /* margin-left: 10%; */
+}
+.sign0ut-text1 input::placeholder {
+  text-align: center;     /* Center horizontally */
+  color: #aaa;            /* Placeholder color */
+  font-size: 1.2rem;
+}
+.sign0ut-text1 input{
+  outline: none;
+  border: none;
+  /* height: 2.5rem; */
+  border-radius: 12px;
+  display: flex;
+  align-items:flex-start;
+  align-content: flex-start;
+  text-align: left !important;
+  height: 35px;
+  width: 100%;
+  /* text-decoration: underline; */
+}
+.signoutbtn1 h5{
+  font-family: "OpenSans-Regular";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 23.15px;
+  text-align: center;
+}
+.signoutbtn1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.signoutbtn1 h1{
+  font-family: "PlusJakartaSans-Bold";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23.15px;
+  text-align: center;
+}
+.signoutbtn1 button {
+  align-content: center;
+  margin-top: 3%;
+  width: 60%;
+  height: 40px;
+  top: 1648px;
+  left: 895px;
+  border: none;
+  background-color: #FF5F67;
+  border-radius: 30px;
+  font-family: "OpenSans-Regular";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 23.15px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+@media (max-width:990px) {
+
+  .cer-btn-container{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    margin: 2%;
+  }
+  .cer-n-btn{
+    align-content: center;
+    margin-top: 2%;
+    /* float: right; */
+    width: 50%;
+  height: 40px;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23.15px;
+  text-align: center;
+  /* margin-left: 40%; */
+  }
+  
+  .certificate-img>img{
+    width:100%;
+    height: 100%;
+  }
+  .certificate-container{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+  }
+  .cerificate-sub-text{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.79px;
+  text-align: center;
+    /* margin-left: 14%;  */
+    margin-top: 2%;
+  }
+  
+}
+@media (max-width:480px) {
+  .cer-n-btn{
+    margin-top: 3%;
+    /* float: right; */
+    width: 100%;
+  height: 25px;
+  border-radius: 30px;
+  font-size: 12px;
+  line-height: 21.15px;
+  /* margin-left: 40%; */
+  cursor: pointer;
+  }
+  .cer-btn-container{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    margin: 3%;
+  }
+
+  .cerificate-sub-text{
+  font-size: 10px;
+  line-height: 13px;
+  margin-left: 0;
+  }
+  .certificate-container{
+    padding-bottom: 15%;
+  }
+  .certi-title{
+    position: absolute;
+      top: 49.5%;
+      left: 50%;
+      font-size: 12px;
+      font-family: 'Cardo-Bold';
+      line-height: 22px;
+  }
+  .certi-sub{
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 8px;
+    line-height: 10px;
+  }
+  .certi-sub-sub{
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 8px;
+  }
+  .qr-code-00 {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    position: absolute;
+    top: 57% !important;
+    left: 44%;
+    width:40px !important; /* Ensures the container spans the full width of the page */
+
+  }
+  
+}
+
+@media (max-width:380px) {
+  .qr-code-00 {
+    left: 43.5% !important;
+    width: 40px !important;
+  }
+}
+@media (max-width:350px) {
+  .qr-code-00 {
+    /* left: 44% !important; */
+    width: 35px !important;
+  }
+}
+.com-left-arrow-main-11{
+  background-color: #2C2C2E;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  align-content: center;
+box-shadow: 0px 0px 1px 1px #00BBD140;
+
+}
+.com-flex-start-11{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 3%;
+  margin-left: 9%;
+  /* justify-content:safe; */
+  /* grid-template-columns:5% 20% ; */
+  
+}
+.com-title-11{
+  font-family: "PlusJakartaSans-Bold";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 43px;
+  text-align: left;
+  margin-left: 3%;
+  }
+  .com-left-arrow-11>img{
+    width: 11px;
+    height: 21px;
+    align-items: center;
+    text-align: center;
+  }
+  @media (max-width:800px) {
+    .com-left-arrow-main-11{
+      width: 40px;
+      height: 40px;
+      margin-top: 1%;
+    }
+
+    .com-title-11{
+      font-size: 22px;
+      }
+      .com-left-arrow-11>img{
+        width: 9px;
+        height: 18px;
+      }
+  }
+  @media (max-width:480px) {
+    .com-left-arrow-main-11{
+      width: 23px;
+      height: 23px;
+      margin-top: 3%;
+    }
+    .com-title-11{
+      font-size: 16px;
+      margin-left: 3%;
+  line-height: 18px;
+
+      }
+      .com-left-arrow-11>img{
+        width: 6px;
+        height: 12px;
+      }
+      .com-left-arrow-main-11{
+      margin-top: 0;
+      }
+      .com-flex-start-11{
+        padding-top: 8%;
+        /* justify-content:safe; */
+        /* grid-template-columns:5% 20% ; */
+        
+      }
+      .sign0ut-text1 {
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+        text-align: left;
+
+      }
+      .sign0ut-text1 input::placeholder{
+        font-size: 12px;
+      }
+      .sign0ut-text1 input{
+        width:100%;
+        height: 35px;
+        font-size: 14px !important;
+      }
+      .signoutbtn1 h5{
+        font-size: 14px;
+      }
+      .signoutbtn1 {
+        gap: 1rem;
+      }
+      .signoutbtn1 h1{
+        font-size: 16px;
+      }
+      .signoutbtn1 button {
+        margin-top: 3%;
+        width: 60%;
+        height: 30px;
+        font-size: 14px;
+      }
+      .certifi-prf-name{
+        top: 37%;
+        left: 50%;
+        /* color: black; */
+        font-size: 20px;
+      }
+  }

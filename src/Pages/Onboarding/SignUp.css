@@ -1,0 +1,311 @@
+.signuplayout-header {
+    width: 100%;
+    /* height: 100vh; */
+  }
+  
+  .signUp-hello6543 {
+    font-size: 20px;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 160px;
+    font-family: "PlusJakartaSansSemiBold";
+    margin-top: 2%;
+    /* margin-bottom: 1%; */
+    color: #fff;
+    text-align: left;
+  }
+  .error-text{
+    position: absolute;
+    color: #ff1c27;
+    font-size: .875rem;
+    padding: 2px 4px;
+    text-align: left;
+  }
+  .signUp-hello6543-subtext {
+    font-size: 14px;
+    display: flex;
+    align-items: flex-start;
+    /* padding-left: 160px; */
+    flex-wrap: wrap;
+    font-weight: 200;
+    font-family: 'PlusJakartaSans-Regular';
+    color: #ffff;
+    text-align: left;
+  }
+  
+  .signup-form568 {
+    width: 100%;
+    max-width: 500px;
+    /* margin: 0 auto; */
+    padding-left: 160px;
+    padding-top: 15px;
+  }
+  
+  .form-group568 {
+    padding-bottom  : 5px;
+    font-family: 'PlusJakartaSans-Regular';
+    border-bottom: 2px solid #333; /* Change the color as per your design */
+    /* position: relative; */
+  }
+  .form-group5689{
+    margin-bottom  : 20px;
+  }
+  .form-group568 input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px !important;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff; /* Change the color as per your design */
+  }
+  
+  .form-group568 input::placeholder {
+    color: #aaa;
+  }
+  
+  .password-container568 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-top: 5%;
+  }
+  
+  .password-container568 input {
+    width: 100%;
+    padding-right: 40px; /* Adjusting for the icon width */
+  }
+  
+  .toggle-password {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    filter: invert(100%); /* Inverts the color of the icon, making it white */
+  }
+  .linear-button568 {
+    background: linear-gradient(90deg, var(--color-primary) 0%,var(--color-primary) 100%);
+    border: none;
+    border-radius: 25px;
+    /* color: white; */
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: 'PlusJakartaSans-Regular';
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 100%;
+    max-width: 500px;
+    left:0;
+    margin-top: 15%;
+  }
+  
+  .linear-button568:hover {
+    background: linear-gradient(90deg,var(--color-primary) 0%,var(--color-primary) 100%);
+  }
+  
+  .linear-button568:focus {
+    outline: none;
+  }
+  .social-login-types5681{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .social-login-types568{
+    height: 50px; 
+    width: 50px;
+    border-radius: 25px;
+    background-color: #3A3A3C;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+
+  }
+  .sinup-bottom-text568{
+    align-items: center;
+    font-size: 12px;
+  }
+
+   .singin-bottom-text123{
+    align-items:center;
+    font-size: 14px;
+    /* font-family: 'PlusJakartaSans-Regular'; */
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .eye-icon img{
+    width: 30%;
+    /* height: 30%; */
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .signup-form568 {
+      width: 80%;
+      max-width: 500px;
+      /* margin: 0 auto; */
+      padding-left: 80px;
+      padding-top: 15px;
+    }
+    .signUp-hello6543 {
+      font-size: 24px;
+      display: flex;
+      align-items: flex-start;
+      padding-left: 80px;
+    }
+  
+    .signUp-hello6543-subtext {
+      font-size: 10px;
+      display: flex;
+      align-items: flex-start;
+      text-align: left !important;
+      /* padding-left: 80px; */
+      flex-wrap: wrap;
+      font-weight: 200;
+    }
+
+    .linear-button568 {
+      background: linear-gradient(90deg, var(--color-primary) 0%,var(--color-primary) 100%);
+      border: none;
+      border-radius: 25px;
+      /* color: white; */
+      padding: 10px 40px 10px 0px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      width: 100%;
+      max-width: 380px;
+      left:0;
+      
+    }
+    .singin-bottom-text123{
+      align-items:center;
+      font-size: 14px;
+    }
+
+  }
+  
+ 
+
+ 
+
+  @media only screen and (max-width: 800px) {
+
+    .signup-form568 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+        /* width: 100%; */
+        max-width: 500px;
+        /* margin: 0 auto; */
+        padding-left: 0px;
+        padding-top: 0px !important;
+        padding: 12%;
+      }
+      .signUp-hello6543 {
+        font-size: 28px;
+        display: flex;
+        align-items: flex-start;
+        padding-left: 0px;
+      }
+      
+      .signUp-hello6543-subtext {
+        font-size: 13px;
+        padding-left: 0px;
+        flex-wrap: wrap;
+        font-weight: 200;
+        text-align: center !important;
+      }
+      .singin-bottom-text123{
+        align-items:center;
+        font-size: 13px;
+        padding-top: 10px;
+        padding-left: 0px;
+        padding-right: 5px;
+      }
+      .form-group568 {
+        width: 100%;
+        max-width: 350px;
+        /* margin: 0 auto; */
+        padding-top: 15px;
+      }
+
+      .linear-button568 {
+        background: linear-gradient(90deg, var(--color-primary) 0%,var(--color-primary) 100%);
+        border: none;
+        border-radius: 25px;
+        /* color: white; */
+        padding: 10px 0px 10px 0px;
+        font-size: 14px;
+        cursor: pointer;
+        transition: background 0.3s ease;
+        width: 100%;
+        max-width: 350px;
+        left:0;
+        
+      }
+      .social-login-types5681{
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+        padding-left: 25px;
+      }
+      .signuplayout-header {
+        align-items: center;
+        align-content: center;
+        display: flex;
+        flex-direction: column;
+      }
+      .signuplayout-header {
+        width: 100%;
+        /* height: 100vh; */
+      }
+      .password-container568 {
+        padding-top: 3%;
+      }
+  }
+
+  @media only screen and (max-width: 500px) {
+
+      .signUp-hello6543 {
+        padding-left: 0px;
+      }
+      .signup-form568 {
+          padding: 9%;
+        }
+      .signUp-hello6543-subtext {
+        padding-left: 0px;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center !important;
+      }
+      .signuplayout-header {
+        width: 100%;
+        padding-bottom: 30%;
+      }
+      .password-container568 {
+        padding-top: 2%;
+      }
+      .signUp-hello6543 {
+        font-size: 16px;
+        /* font-family:"PlusJakartaSans-Regular" ; */
+      }
+      .form-group568 input {
+    /* font-family: "PlusJakartaSansSemiBold"; */
+    font-size: 14px !important;
+      }
+  }

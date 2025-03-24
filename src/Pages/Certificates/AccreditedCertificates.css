@@ -1,0 +1,133 @@
+.overall-premium-bar{
+    margin-left: 14%;
+    margin-right: 14%;
+    margin-top: 2%;
+    padding-bottom: 6%;
+    /* border:'2px solid green' */
+  }
+  .premium-bar{
+    border-radius: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 500px;
+    height: 40px;
+    max-height: 50px;
+    align-items: center;
+    margin-bottom: 5%;
+  }
+  .bar-school,.bar-teacher{
+    font-family: 'OpenSans-Regular';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+  padding: 2.3%;
+  padding-left: 19%;
+  padding-right: 19%;
+  border-radius: 32px;
+  /* background-color: brown; */
+  }
+  .p-b-container h3{
+    font-family: 'OpenSans-Regular';
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27.24px;
+  text-align: left;
+  color: #ff5f67;
+  }
+  .p-b-container p{
+    font-family: 'OpenSans-Regular';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: left;
+  }
+  .p-b-container{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    border-radius: 12px;
+    gap: .5rem;
+    margin-bottom: 1.5%;
+    cursor: pointer;
+  }
+  .swal2-confirm {
+  background-color: #ff5f67;
+  }
+  @media (max-width:800px) {
+   
+    .premium-bar{
+      max-width: 400px;
+      height: 38px;
+    }
+    .bar-school,.bar-teacher{
+    font-size: 16px;
+    padding: 2.6%;
+    padding-left: 18%;
+    padding-right: 18%;
+    }
+    .p-b-container h3{
+    font-size: 18px;
+    line-height: 22.24px;
+    }
+    .p-b-container p{
+    font-size: 14px;
+    line-height: 20.79px;
+    }
+  }
+  @media (max-width:480px) {
+    .overall-premium-bar{
+      margin-left: 8%;
+      margin-right: 8%;
+      margin-top: 2%;
+      padding-bottom: 6%;
+    }
+    .premium-bar{
+      max-width: 200px;
+      height: 30px;
+      max-height: 50px;
+      align-items: center;
+      margin-bottom: 5%;
+    }
+    .bar-school,.bar-teacher{
+    font-size: 12px;
+    padding: 3.5%;
+    padding-left: 14.5%;
+    padding-right: 14.5%;
+    }
+    .p-b-container h3{
+      font-family: 'OpenSans-Regular';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.24px;
+    text-align: left;
+    color: #ff5f67;
+    }
+    .p-b-container p{
+      font-family: 'OpenSans-Regular';
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14.79px;
+    text-align: left;
+    }
+    .p-b-container{
+      display: flex;
+      flex-direction: column;
+      padding: 4%;
+      border-radius: 12px;
+      gap: .5rem;
+      margin-bottom: 3%;
+    }
+    .title-accederation{
+      margin-left: -2%;
+    }
+  }
+
+  .premium-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    margin: 0 auto;
+  }

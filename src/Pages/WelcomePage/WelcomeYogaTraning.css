@@ -1,0 +1,325 @@
+.welcome-yoga-traning-header {
+    padding: 25px;
+}
+
+.welcome-yoga-traning {
+    width: 100%;
+    height: 650px;
+    background-image: url('/assets/welcomebg.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    border-radius: 35px;
+}
+
+.welcome-yoga-text {
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 300px;
+    margin-top: 15%;
+    margin-left: 5%;
+    width:40%;
+    border-radius: 15px;
+    /* background-color: black; */
+    backdrop-filter:  blur(5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.welcome-rec-yoga {
+    
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: 'PlusJakartaSans-Regular';
+    font-weight: 400;
+    color: white;
+}
+
+.welcome-yoga-rec {
+    font-size: 40px;
+    font-family: 'PlusJakartaSans-Regular';
+    text-align: start;
+    width:fit-content;
+    line-height: 1;
+    font-weight: 800;
+    padding-left: 6px;
+    padding-top: 10px;
+    color: white;
+}
+
+.join-button-welcome {
+    padding-top:5%;
+}
+
+.join-button {
+    margin-left: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'PlusJakartaSans-Regular';
+}
+
+.join-button:hover {
+    background-color: #ddd;
+}
+
+.welcome-yoga-sub {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 25px;
+
+}
+
+.welcome-yoga-sub-item {
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+    display: flex;
+    border-radius: 15px;
+   
+  
+}
+
+.welcome-yoga-sub-text {
+    text-align: left;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome-yoga-sub-h2 {
+    padding-top: 30px;
+    font-size: 12px;
+    padding-left: 70px;
+    font-family: 'PlusJakartaSans-Regular';
+    font-weight: 400;
+    color: white;
+}
+
+.welcome-yoga-sub-p {
+    font-size: 30px;
+    font-family: 'PlusJakartaSans-Regular';
+    text-align: start;
+    width: 230px;
+    line-height: 1;
+    font-weight: 700;
+    padding-left: 70px;
+    padding-top: 15px;
+    color: white;
+}
+
+.join-button-welcome1 {
+    padding-top: 70px;
+    padding-left: 70px;
+}
+@media (max-width:950px) {
+    .welcome-yoga-text {
+        padding-left: 0px;
+    }
+}
+/* For tablets (≥ 768px) */
+@media (max-width: 800px) {
+    .welcome-yoga-text {
+        padding-left: 20px;
+    }
+
+    .welcome-yoga-rec {
+        font-size: 50px;
+        width: 100%;
+    }
+
+    .join-button-welcome {
+        padding-top: 100px;
+    }
+
+    .welcome-yoga-sub {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+.welcome-yoga-text {
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 230px !important;
+    margin-top: 50% !important;
+    margin-left: 5%;
+    width:50%;
+    /* background-color: black; */
+}
+
+.welcome-rec-yoga {
+    font-size: 16px;
+    font-family: 'PlusJakartaSans-Regular';
+    font-weight: 400;
+    color: white;
+}
+
+.welcome-yoga-rec {
+    font-size: 30px;
+    font-family: 'PlusJakartaSans-Regular';
+    text-align: start;
+    width:fit-content;
+    line-height: 1;
+    font-weight: 800;
+    padding-left: 6px;
+    padding-top: 10px;
+    color: white;
+}
+
+.join-button-welcome {
+    padding-top:10%;
+}
+
+}
+@media (max-width:1200px) {
+    .welcome-yoga-text {
+        margin-top: 30%;
+        margin-left: 5%;
+        width:50%;
+        height: 300px;
+    }
+    
+}
+
+/* For mobile devices (≥ 480px) */
+@media (max-width: 480px) {
+    .welcome-yoga-traning {
+        width: 100%;
+        height: 250px;
+        background-image: url('/assets/welcomebg.jpg');
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        display: flex;
+        border-radius: 35px;
+    }
+    .welcome-yoga-text {
+        padding-left: 30px;
+        padding-top: 20px;
+    }
+
+    .welcome-yoga-sub-text {
+        text-align: left;
+        display: flex;
+       
+      
+    }
+
+    .welcome-rec-yoga {
+        font-size: 14px;
+    }
+
+    .welcome-yoga-rec {
+        font-size: 20px;
+        line-height: 1;
+    }
+
+    .join-button-welcome {
+        padding-top: 40px;
+    }
+    
+
+    .join-button {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .welcome-yoga-sub {
+        grid-template-columns: 48% 48%;
+    }
+
+    .welcome-yoga-sub-item {
+        background-size: cover;
+        background-position: center;
+        height: 200px;
+        max-width: 150px;
+        display: flex;
+    flex-direction: column;
+        border-radius: 15px;
+       
+      
+    }
+    
+
+    .welcome-yoga-sub-h2 {
+        padding-top: 1px;
+        font-size: 12px;
+        padding-left: 10px;
+        font-family: 'PlusJakartaSans-Regular';
+        font-weight: 200;
+        color: white;
+    }
+    .welcome-yoga-sub-p {
+        font-size: 15px;
+        font-family: 'PlusJakartaSans-Regular';
+        text-align: left;
+        width: 100px;
+        line-height: 1;
+        font-weight: 400;
+        padding-left: 10px;
+        padding-top: 1px;
+        color: white;
+    }
+    .join-button-welcome1 {
+        padding-top: 15px;
+        padding-left: 10px;
+    }
+
+    
+.welcome-yoga-text {
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 170px !important;
+    margin-top: 10% !important;
+    margin-left: 5%;
+    width:90%;
+   background-color:none !important;
+}
+
+.welcome-rec-yoga {
+    font-size: 12px;
+    font-family: 'PlusJakartaSans-Regular';
+    font-weight: 400;
+    color: white;
+}
+
+.welcome-yoga-rec {
+    font-size: 20px;
+    font-family: 'PlusJakartaSans-Regular';
+    text-align: start;
+    width:fit-content;
+    line-height: 1;
+    font-weight: 800;
+    padding-left: 6px;
+    padding-top: 10px;
+    color: white;
+}
+
+.join-button-welcome {
+    padding-top:5%;
+}
+
+.join-button {
+    padding: 10px 20px;
+    font-size: 12px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'PlusJakartaSans-Regular';
+}
+
+}

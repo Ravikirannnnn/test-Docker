@@ -1,0 +1,78 @@
+/* TimerPicker.css */
+
+.timer-picker {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  position: absolute;
+ top: 7rem;
+  right: 20rem;
+}
+
+.timer-picker h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.picker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.number-input {
+  width: 50px;
+  padding: 10px;
+  font-size: 24px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.number-input:focus {
+  border-color: #007BFF;
+  outline: none;
+}
+
+.colon {
+  font-size: 24px;
+  color: #333;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.cancel-btn,
+.save-btn {
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100px;
+}
+
+.cancel-btn:hover,
+.save-btn:hover {
+  background-color: #e0e0e0;
+}
+
+.save-btn {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+}
+
+.save-btn:hover {
+  background-color: #ff3333;
+}

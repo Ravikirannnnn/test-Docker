@@ -1,0 +1,205 @@
+.overall-premium{
+  margin-left: 14%;
+  margin-right: 14%;
+  padding-bottom: 6%;
+  margin-top: 2%;
+  /* max-width: 1100px; */
+}
+.premium-img>img{
+  max-width: 1100px;
+  width: 100%;
+/* max-height: 500px; */
+}
+.apply-maintext{
+  font-family:'OpenSans-Regular';
+font-size: 18px;
+font-weight: 600;
+line-height: 24.51px;
+text-align: left;
+}
+.apply-subtext{
+  font-family: "Poppins-Regular";
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+margin-top: 1%;
+}
+.apply-container{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 2%;
+}
+.pre-text{
+  font-family: 'OpenSans-Regular';
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24.51px;
+  text-align: left;
+}
+.radio-teacher,.radio-school{
+  font-family: 'Poppins-Regular';
+font-size: 16px;
+font-weight: 400;
+line-height: 18px;
+text-align: left;
+padding: .5%;
+display: flex;
+gap: 1rem;
+}
+/* .radio-School input[type="radio"]:checked {
+  background-color: #4CAF50; /* Change this to your desired active color */
+
+.apply-btn{
+  align-content: center;
+  margin-top: 3%;
+  width: 20%;
+height: 50px;
+top: 1648px;
+left: 895px;
+background-color: #FF5F67;
+border-radius: 30px;
+font-family: "OpenSans-Regular";
+font-size: 17px;
+font-weight: 600;
+line-height: 23.15px;
+text-align: center;
+color:rgb(255, 255, 255);
+cursor: pointer;
+}
+.radio-container1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: .5rem;
+  margin-top: 2%;
+}
+.pre-container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+}
+
+@media (max-width:1280px) {
+  .premium-img>img{
+    width: 800px;
+  }
+}
+@media (max-width:950px) {
+  .premium-img>img{
+    width: 680px;
+  }
+}
+@media (max-width:800px) {
+  .overall-premium{
+    margin-left: 14%;
+    margin-right: 14%;
+    padding-bottom: 6%;
+    margin-top: 2%;
+    /* max-width: 1100px; */
+  }
+  .premium-img>img{
+    width: 600px;
+  }
+  .apply-maintext{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24.51px;
+  text-align: left;
+  }
+  .apply-subtext{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: #888C94;
+  margin-top: 1%;
+  }
+  .apply-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 2%;
+  }
+  .pre-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24.51px;
+    text-align: left;
+  }
+  .radio-teacher,.radio-school{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18px;
+  padding: .5%;
+  }
+  /* .radio-School input[type="radio"]:checked {
+    background-color: #4CAF50; /* Change this to your desired active color */
+  
+  .apply-btn{
+    margin-top: 1%;
+    width: 30%;
+  height: 40px;
+  font-size: 16px;
+  margin-top: 4%;
+  }
+  .radio-container1{
+    margin-top: 0%;
+  }
+  .pre-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+  }
+}
+
+@media (max-width:480px) {
+  .overall-premium{
+    padding-bottom: 20%;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  .primium-top-top{
+    margin-left: -7%;
+
+    line-height: 22px;
+  }
+  .premium-img>img{
+    width: 100%;
+    margin-top: 2%;
+  }
+  .apply-maintext{
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18.51px;
+  text-align: left;
+  }
+  .apply-subtext{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  width: 100%;
+  }
+  .apply-container{
+    margin-top: 4%;
+  }
+  .pre-text{
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .radio-teacher,.radio-school{
+  font-size: 12px;
+  line-height: 18px;
+  padding: .2%;
+  }
+  /* .radio-School input[type="radio"]:checked {
+    background-color: #4CAF50; /* Change this to your desired active color */
+  
+  .apply-btn{
+    width: 50%;
+  height: 25px;
+  font-size: 12px;
+  margin-top: 4%;
+  }
+}

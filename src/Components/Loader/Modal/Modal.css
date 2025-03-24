@@ -1,0 +1,143 @@
+/* Modal.css */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.no-scroll {
+  overflow: hidden;
+}
+.modal-content {
+  /* background-color: white; */
+  padding: 20px;
+  border-radius: 32px !important;
+  position: relative;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0px 0px 1px 1px #FFFFFF;
+}
+.modal-header>h2{
+  font-family: 'PlusJakartaSans-Bold';
+font-size: 24px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+padding-bottom: 3%;
+}
+.modal-close{
+  width: 2rem !important;
+  height: 2rem !important;
+
+  background-color: white;
+  border-radius: 50%;
+  margin-left: 90%;
+  border: none;
+  font-size: 16px !important;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 4px;
+  padding-left: 1px;
+}
+.no-scroll {
+  overflow: hidden;
+}
+.modal-head-body{
+  padding: 7%;
+  padding-top: 0px;
+  /* padding-right: 0px; */
+}
+.close-button {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin-right: 1.5%;
+  margin-top: .5%;
+}
+@media (max-width:900px) {
+
+.modal-content {
+  max-width: 400px;
+  width: 80%;
+  border-radius: 32px !important;
+  /* height: 90%; */
+}
+.modal-header>h2{
+font-size: 22px;
+margin-bottom: 0px;
+}
+.modal-close{
+  /* width: 20px !important;
+  height: 20px !important; */
+
+  /* background-color: white;
+  border-radius: 50%;
+  margin-left: 90%;
+  border: none;
+  font-size: 14px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1px;
+  padding-left: 0px; */
+}
+.modal-head-body{
+  padding: 6%;
+  padding-top: 0px;
+}
+.Modal>title{
+  font-size:14px ;
+
+}
+}
+
+@media (max-width:480px) {
+  
+.modal-content {
+  max-width: 300px;
+  width: 80%;
+  padding: 10px;
+  border-radius: 32px !important;
+  /* height: 90%; */
+}
+.modal-header>h2{
+font-size: 16px;
+margin-bottom: 0px;
+padding:0px;
+}
+.modal-close{
+  width: 20px !important;
+  height: 20px !important;
+  /* font-size: 17px !important; */
+  padding-left: .2%;
+  padding-bottom: 1%;
+  margin-left: 90%;
+
+}
+.modal-head-body{
+  padding: 6%;
+  padding-top: 0px;
+}
+/* .modal-close{
+  margin-left: 90%;
+} */
+}

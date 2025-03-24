@@ -1,0 +1,344 @@
+.welcome-benefit-container {
+    padding: 40px;
+  }
+  
+  .benefit-left-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .benefit-main-grid {
+    text-align: left;
+  }
+  
+  .benefit-main-grid-icontextimg {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid;
+    border-image-source: linear-gradient(90deg, rgba(47, 70, 106, 0.1) -2.94%, #2F466A 49.17%, rgba(47, 70, 106, 0.1) 102.37%);
+    border-image-slice: 1;
+    padding-top: 30px;
+  }
+  
+  .benefit-main-grid-icontextimg123 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+  }
+  @keyframes fadeInSlideUp {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .welcome-benefit-container {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 2s ease-out, transform 0.5s ease-out;
+  }
+  
+  .welcome-benefit-container.animate {
+    animation: fadeInSlideUp 1.5s ease-out forwards;
+  }
+  
+  .benefit-main-grid-icontextimg123Mplus {
+    font-family: "PlusJakartaSansSemiBold";
+    font-size: 32px;
+  }
+  
+  .benefit-main-grid-icontextimg123Mplussub123 {
+    padding-top: 15px;
+    font-family: "OpenSans-Regular";
+    font-size: 18px;
+    color: #CDCDCD;
+    padding-bottom: 30px;
+  }
+  
+  .benefit-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-bottom: 5%;
+  }
+  
+  .benefit-subtitle {
+    font-family: "PlusJakartaSansSemiBold";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.6px;
+    letter-spacing: 0.05em;
+    text-align: left;
+  }
+  
+  .benefit-title {
+    font-family: "OpenSans-BoldItalic";
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 67.2px;
+    text-align: left;
+  }
+  
+  .grid-icon {
+    height: 60px;
+    width: 60px;
+  }
+
+  .benefit-right-imgleftimge{
+   width: 100%;
+   height: 550px;
+  }
+  
+  /* Media Queries */
+  
+  @media only screen and (max-width: 780px) {
+    .benefit-left-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+  
+      .benefit-right-imgleftimge{
+        width: 100%;
+        height: 530px;
+       }
+ 
+  
+    .benefit-title {
+      font-size: 36px;
+      line-height: 50px;
+    }
+  
+    .benefit-subtitle {
+      font-size: 16px;
+    }
+  
+    .benefit-main-grid-icontextimg123Mplus {
+      font-size: 24px;
+    }
+  
+    .benefit-main-grid-icontextimg123Mplussub123 {
+      font-size: 14px;
+      padding-top: 10px;
+      font-family: "OpenSans-Regular";
+     
+      color: #CDCDCD;
+      padding-bottom: 20px;
+    }
+  
+    
+  }
+  
+  @media only screen and (max-width: 450px) {
+    .welcome-benefit-container {
+      grid-template-columns: 1fr 1fr;
+      padding: 20px;
+        }
+        .benefit-left-container {
+          display: flex;
+          flex-direction: column;
+        }
+  
+    .benefit-heading{
+      padding: 15px;
+      text-align: left;
+    }
+  
+   
+  
+    .benefit-title {
+      font-size: 28px;
+      
+    }
+  
+    .benefit-subtitle {
+      font-size: 14px;
+    }
+  
+    .benefit-main-grid-icontextimg123Mplus {
+      font-size: 24px;
+    }
+  
+    .benefit-main-grid-icontextimg123Mplussub123 {
+      font-size: 14px;
+    }
+  
+    .benefit-right-imgleftimge{
+      width: 100%;
+      height: 530px;
+     }
+  }
+  
+
+
+  .yoga-banner {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 40px;
+    margin: 20px 0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 6%;
+    gap: 2%;
+  }
+  
+  .banner-left img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .banner-right {
+    margin-top: 10%;
+    padding: 3%;
+  }
+  
+  .banner-right h1 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.3;
+    text-align: left;
+  }
+  
+  .banner-right p {
+  font-family: 'PlusJakartaSans-Regular';
+    font-size: 22px;
+    line-height: 1.6;
+    margin-top: 10px;
+    text-align: left;
+  }
+  .banner-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .download-btn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    align-content:flex-start;
+    width: 50%;
+  }
+  
+  .download-btn:hover {
+    background-color: #0056b3;
+  }
+  .welcomefooter-playapple{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding-top: 5%;
+  
+   
+   
+}
+.welcomefooter-downplaystore{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    width: 150px;
+    height: 45px;
+    justify-content: center;
+    border: 0.5px solid gray;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 10px;
+    color: aliceblue;
+}
+.welcomefooter-downplaystore-sub{
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+
+}  
+
+.welcomefooter-downplaystore-subtext{
+    font-size: 10px;
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    font-family: 'OpenSans-Regular';
+
+}
+.welcomefooter-downplaystore-subtext1{
+    font-size: 13px;
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    font-family: 'OpenSans-Regular';
+}
+
+  @media (max-width:1200px) {
+     
+  .banner-right {
+    margin-top: 0%;
+    padding: 3%;
+  }
+  }
+  /* Responsive Design */
+  @media (max-width: 900px) {
+    .yoga-banner {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .banner-left img {
+      width: 100%;
+      margin-bottom: 0px;
+    }
+  
+    .banner-right {
+      margin-left: 0;
+      padding-top: 0px;
+    }
+  
+    .banner-right h1 {
+      font-size: 28px;
+    }
+  
+    .banner-right p {
+      font-size: 14px;
+    }
+  
+    .download-btn {
+      font-size: 14px;
+    }
+  }
+  @media (max-width:500px) {
+    .yoga-banner {
+      display: flex;
+      flex-direction: column;
+      padding: 40px;
+      margin: 20px 0;
+      border-radius: 10px;
+      overflow: hidden;
+      margin-top: 6%;
+      gap: 2%;
+    }
+    
+    .banner-right h1 {
+      font-size: 24px;
+      font-weight: bold;
+      line-height: 1.3;
+      text-align: left;
+      margin-top: 3%;
+      margin-bottom: 0;
+    }
+    
+    .banner-right p {
+      font-size: 14px;
+      line-height: 1.6;
+      margin-top: 10px;
+      text-align: left;
+    }
+  }

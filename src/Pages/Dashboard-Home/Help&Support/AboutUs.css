@@ -1,0 +1,173 @@
+.about-main-container{
+  padding-top: 0%;
+  padding-left: 1%;
+  padding-right: 10%;
+  /* padding-bottom: 10%; */
+}
+.left-arrow-main-012{
+  /* background-color: #d8d8df; */
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  align-content: center;
+box-shadow: 0px 0px 1px 1px #00BBD140;
+}
+.edit-profile-flex-start-012{
+  display:flex;
+  flex-direction: row;
+  /* justify-content:safe; */
+  /* grid-template-columns:5% 20% ; */
+  
+}
+.edit-profile-title-012{
+  font-family: "PlusJakartaSans-Bold";
+font-size: 32px;
+font-weight: 400;
+line-height: 43px;
+text-align: left;
+margin-left: 2%;
+}
+.edit-profile-left-arrow-012>img{
+  width: 11px;
+  height: 21px;
+  align-items: center;
+  text-align: center;
+  /* border-radius: 50%; */
+}
+.about-text-1{
+  /* //styleName: Body/Semibold; */
+font-family: 'PlusJakartaSans-Regular';
+font-size: 20px;
+font-weight: 600;
+line-height: 18px;
+text-align: left;
+margin-top: 5%;
+
+}
+.about-text-2,.about-text-3,.about-text-4,.about-text-5{
+  /* font-family: 'PlusJakartaSans-Regular';
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left; */
+  font-family: 'PlusJakartaSans-Regular';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  margin-top: 3%;
+  padding-bottom: 1%;
+}
+.about-text-2 strong,.about-text-3 strong,.about-text-4 strong,.about-text-5 strong{
+  font-family: 'PlusJakartaSans-Regular';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+}
+.about-text-container{
+  margin-left: 15.5%;
+}
+.abtu-titllll{
+  /* margin-left: -11%; */
+}
+@media only screen and (max-width: 780px) {
+  .about-main-container {
+    padding-left: 0%;
+    padding-right: 5%;
+  }
+
+  .edit-profile-title-012 {
+    font-size: 28px;
+    margin-left: 1%;
+  }
+
+  .about-text-1 {
+    font-size: 20px;
+  }
+  .left-arrow-main-012 {
+    width: 35px;
+    height: 35px;
+    margin-top: 1%;
+  }
+  .edit-profile-left-arrow-012>img{
+    width:10px;
+    height:20px;
+  }
+    .edit-profile-title-012 {
+      font-size: 26px;
+      margin-left: 1%;
+    }
+  .about-text-2,
+  .about-text-3,
+  .about-text-4,
+  .about-text-5 {
+    font-size: 16px;
+    margin-top: 3%;
+    line-height: 19px;
+  }
+
+  .about-text-container {
+    margin-left: 17%;
+  }
+}
+
+/* Responsive Styles for max-width: 480px */
+@media only screen and (max-width: 480px) {
+  .about-main-container {
+    padding-left: 0%;
+    padding-right: 0%;
+    /* margin-bottom: 5%; */
+    /* height: 100vh; */
+  }
+  .about-text-2 strong{
+    font-size: 15px;
+  }
+  .left-arrow-main-012 {
+    width: 22px;
+    height: 22px;
+    margin-top: 4%;
+  }
+.edit-profile-left-arrow-012>img{
+  width:7px;
+  height:12px;
+}
+  .edit-profile-title-012 {
+    font-size: 20px;
+    margin-left:6px;
+    /* margin-left:3%; */
+  }
+
+  .about-text-1 {
+    font-size: 16px;
+    margin-top: 5%;
+  }
+
+  .about-text-2,
+  .about-text-3,
+  .about-text-4,
+  .about-text-5 {
+    font-size: 14px;
+    margin-top: 4%;
+  line-height: 16px;
+  padding-bottom: 2%;
+  }
+  
+.about-text-2{
+  margin-top: 5%;
+
+}
+/* .abtu-titllll{
+  margin-left: -10%;
+} */
+  .about-text-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    /* padding-bottom: 10%; */
+  }
+  .about-text-2.bordered {
+    border-top: 1px solid #fff; /* Adjust the color and size as needed */
+    padding-top: 10px; /* Add some padding for spacing */
+  }
+  
+}

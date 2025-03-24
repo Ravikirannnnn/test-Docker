@@ -1,0 +1,212 @@
+/* Modal.css */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.no-scroll {
+  overflow: hidden;
+}
+.modal-content-dl {
+  /* background-color: white; */
+  padding: 20px;
+  border-radius: 32px;
+  position: relative;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0px 0px 1px 1px #FFFFFF;
+}
+.dlt-mdl-cls-btn{
+  width: 22px;
+  height: 22px;
+  background-color: white;
+  border-radius: 50%;
+}
+.close-button {
+  width: 20px !important;
+  height: 20px !important;
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  /* margin-left: 85%; */
+  border: none;
+  font-size: 16px !important;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2px;
+  padding-left: 1px;
+  margin-top: 2%;
+
+}
+.left-arrow-dlt-modal{
+  width: 32px;
+  height:32px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.left-arrow-dlt-modal>img{
+  width: 7px;
+  height:14px;
+  margin-top:30% ;
+}
+.dlt-modal-head{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  float: right;
+}
+.dlt-mdl-content-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 3%;
+  align-items: center;
+}
+.dlt-mdl-top-head-00{
+  font-family: "PlusJakartaSans-Bold";
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+text-align: center;
+}
+.dlt-mdl-tail-00{
+  font-family: "OpenSans-Regular";
+font-size: 15px !important;
+font-weight: 500;
+line-height: 21.79px;
+text-align: center;
+margin-top: 5%;
+width: 80%;
+}
+.dlt-mdl-bottom{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dlt-btn-profile{
+  align-content: center;
+  margin-top: 3%;
+  /* float: right; */
+  width: 60%;
+height: 45px;
+background-color: #FF5F67;
+border-radius: 30px;
+font-family: "OpenSans-Regular";
+font-size: 17px;
+font-weight: 400;
+line-height: 23.15px;
+text-align: center;
+color:rgb(255, 255, 255);
+margin-top: 5%;
+cursor: pointer;
+}
+.cancel-btn-dlt-mdl{
+  font-family: "OpenSans-Regular";
+font-size: 17px;
+font-weight: 400;
+line-height: 16px;
+text-align: left;
+color: #FF5F67;
+margin-top: 5%;
+}
+@media (max-width: 768px) {
+  .modal-content-dl {
+    max-width: 400px;
+  }
+  /* .dlt-mdl-top-head-00 {
+    font-size: 16px;
+    line-height: 24px;
+  } */
+  .dlt-mdl-tail-00 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .dlt-btn-profile {
+    width: 60%;
+    height: 40px;
+    margin-top: 7%;
+    font-size: 16px;
+  }
+  .cancel-btn-dlt-mdl{
+    font-size: 16px;
+  }
+  .dlt-mdl-cls-btn{
+    width: 20px;
+    height: 20px;
+  }
+  .close-button {
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 2%;
+    margin-top: 1%;
+  }
+  .left-arrow-dlt-modal{
+    width: 28px;
+    height:28px;
+  }
+  .left-arrow-dlt-modal>img{
+    width: 7px;
+    height:13px;
+    margin-top:25% ;
+  }
+}
+
+@media (max-width: 480px) {
+  .modal-content-dl {
+    max-width: 300px;
+    /* height:70% ; */
+  }
+  .dlt-mdl-top-head-00 {
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: 10px;
+    height: 20%;
+    width: 100%;
+  }
+  .dlt-mdl-tail-00 {
+    font-size: 15px !important;
+    line-height: 20px;
+    width: 100%;
+  }
+  .dlt-btn-profile {
+    width: 60%;
+    height: 30px;
+    margin-top: 10%;
+    font-size: 14px;
+  }
+  .cancel-btn-dlt-mdl{
+    font-size: 14px;
+  }
+  .dlt-mdl-cls-btn{
+    width: 16px;
+    height: 16px;
+  }
+  .close-button {
+    font-size: 17px;
+    margin-right: 2.3%;
+    margin-top: 2.3%;
+    padding-right: .5%;
+  }
+  .left-arrow-dlt-modal{
+    width: 26px;
+    height:26px;
+  }
+  .left-arrow-dlt-modal>img{
+    width: 6px;
+    height:10px;
+    margin-top:10% ;
+  }
+}

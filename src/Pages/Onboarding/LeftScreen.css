@@ -1,0 +1,113 @@
+.leftscreen-mainlayoutimgdgfh {
+    padding-left: 40px;
+    padding-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    cursor: pointer;
+  }
+  
+  .login-layout-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+    padding-left: 160px;
+    padding-top: 20px;
+  }
+  
+  .login-layout-contentleftdghfh {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  
+  .tab-item {
+    cursor: pointer;
+    color: aliceblue;
+
+  }
+  
+  .tab-item span {
+    font-size: 18px;
+    font-family: 'OpenSans-Regular';
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .login-layout-left {
+      padding-left: 80px; /* Reduce padding for tablets */
+      gap: 20px; /* Adjust gap for tablets */
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .leftscreen-mainlayoutimgdgfh {
+      padding-left: 0px;
+      padding-top: 10px;
+      justify-content: center;
+      display: block; /* Center logo for smaller screens */
+    }
+  
+    .login-layout-left {
+      padding-left: 0px; /* Further reduce padding for mobile */
+      padding-top: 10px;
+      gap: 40px; /* Further reduce gap for mobile */
+      justify-content: center; /* Center items for smaller screens */
+      flex-direction: row; /* Stack items vertically on mobile */
+      align-items: center; /* Center items vertically */
+    }
+  
+    .login-layout-contentleftdghfh {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-top: 10px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .leftwebpagecontainertty{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    flex-direction: column;
+    }
+    .leftscreen-mainlayoutimgdgfh {
+        padding-left: 15px;
+        padding-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .login-layout-left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 70px;
+        padding-left: 1%;
+        padding-top: 10px;
+      }
+      
+      .login-layout-contentleftdghfh {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+      }
+  
+    .tab-item span {
+      font-size: 14px; /* Adjust font size for smaller screens */
+      font-family: "PlusJakartaSansSemiBold";
+    }
+  }
+  
+  /* .activetefddgf span {
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: var(--color-primary);
+    text-decoration-skip-ink: auto;
+  } */
+  

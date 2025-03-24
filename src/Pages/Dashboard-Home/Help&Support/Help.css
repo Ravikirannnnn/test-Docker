@@ -1,0 +1,211 @@
+.help-main-container{
+  padding-top: 0%;
+  padding-left: 1%;
+  padding-right: 10%;
+  /* padding-bottom: 10%; */
+}
+.left-arrow-main-007{
+  /* background-color: #d8d8df; */
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  align-content: center;
+}
+.edit-profile-flex-start-007{
+  display:flex;
+  flex-direction: row;
+  /* justify-content:safe; */
+  /* grid-template-columns:5% 20% ; */
+  
+}
+.edit-profile-title-007{
+  font-family: "PlusJakartaSans-Bold";
+font-size: 32px;
+font-weight: 400;
+line-height: 43px;
+text-align: left;
+margin-left: 2%;
+}
+.edit-profile-left-arrow-007>img{
+  width: 11px;
+  height: 21px;
+  align-items: center;
+  text-align: center;
+  /* border-radius: 50%; */
+}
+.help-content-holder{
+ padding-left: 3%;
+ padding-top: 2%;
+ padding-bottom: 2%;
+ margin-left: 15.5%;
+ padding-right: 4%;
+ border-radius: 10px;
+ margin-top: 3%;
+box-shadow: 0px 0px 1px 1px #00BBD140;
+}
+.hlp-arrow-icon-1>img,.hlp-arrow-icon-2>img,.hlp-arrow-icon-3>img,.hlp-arrow-icon-4>img,.hlp-arrow-icon-5>img{
+  width: 8px;
+  height: 10px;
+}
+.help-text-1,.help-text-2,.help-text-3,.help-text-4,.help-text-5{
+  /* //styleName: Body/Medium; */
+  font-family: 'OpenSans-Regular';
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: left;
+  /* align-items: center;? */
+}
+.help-content-1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 0%;
+  padding-top: 0%;
+  /* border-bottom: 1px solid #505050; */
+  cursor: pointer;
+  align-items: center;
+  
+}
+.help-content-2,.help-content-3,.help-content-4,.help-content-5{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 1.5%;
+  padding-top: 1.5%;
+  border-bottom: 1px solid #505050;
+}
+.new-hel-tittt{
+  /* margin-left: -18%; */
+}
+@media (max-width: 780px) {
+  .help-main-container {
+    padding-left: 0%;
+    padding-right: 7%;
+  }
+
+  .edit-profile-title-007 {
+    font-size: 28px;
+    line-height: 36px;
+    margin-left: 1%;
+  }
+
+  .left-arrow-main-007 {
+    width: 40px;
+    height: 40px;
+box-shadow: 0px 0px 1px 1px #00BBD140;
+
+    /* margin-top: 1.5%; */
+  }
+
+  .edit-profile-flex-start-007 {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+.edit-profile-left-arrow-007>img{
+  margin-bottom: 3%;
+}
+  .help-content-holder {
+    padding: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-top: 2%;
+    margin-left: 17%;
+  }
+
+  .help-text-1,
+  .help-text-2,
+  .help-text-3,
+  .help-text-4,
+  .help-text-5 {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .help-content-1,
+  .help-content-2,
+  .help-content-3,
+  .help-content-4,
+  .help-content-5 {
+    padding-bottom: 0%;
+    padding-top: 0%;
+    /* border-bottom: 1px solid #707070; */
+  }
+  .hlp-arrow-icon-1>img,.hlp-arrow-icon-2>img,.hlp-arrow-icon-3>img,.hlp-arrow-icon-4>img,.hlp-arrow-icon-5>img{
+    width: 6px;
+    height: 10px;
+  }
+  .new-hel-tittt{
+  /* margin-left: -16%; */
+  }
+}
+
+/* Responsive styles for mobile devices (max-width: 480px) */
+@media (max-width: 480px) {
+  .help-main-container {
+    padding-left: 0%;
+    padding-right: 0%;
+    /* padding-top: 3%; */
+  }
+
+  .edit-profile-title-007 {
+    font-size: 20px;
+    line-height: 32px;
+    margin-left: 2%;
+    margin-bottom: 2%;
+  }
+  .edit-profile-left-arrow-007{
+    margin-top: 10%;
+  }
+  .edit-profile-left-arrow-007>img{
+    width: 7px;
+    height: 14px;
+    margin-bottom: 15%;
+  }
+    .edit-profile-flex-start-007{
+flex-direction: row;
+margin-bottom: 5%;
+    }
+  .left-arrow-main-007 {
+    width: 25px;
+    height: 25px;
+  }
+
+  .help-content-holder {
+    padding: 4%;
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 6%;
+  }
+
+  .help-text-1,
+  .help-text-2,
+  .help-text-3,
+  .help-text-4,
+  .help-text-5 {
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  .help-content-1,
+  .help-content-2,
+  .help-content-3,
+  .help-content-4,
+  .help-content-5 {
+    padding-bottom: 0%;
+    padding-top: 0%;
+    /* border-bottom: 1px solid #909090; */
+  }
+  .help-content-1{
+    display: flex;
+    justify-content: last baseline;
+    /* padding-top: 1%; */
+  }
+  .hlp-arrow-icon-1>img,.hlp-arrow-icon-2>img,.hlp-arrow-icon-3>img,.hlp-arrow-icon-4>img,.hlp-arrow-icon-5>img{
+    width: 5px;
+    height: 8px;
+  }
+  .new-hel-tittt{
+    /* margin-left: -10%; */
+  }
+}

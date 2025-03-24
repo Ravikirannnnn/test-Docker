@@ -1,0 +1,32 @@
+/* loader.css */
+
+/* Loader container */
+.loader-container {
+  display: flex;
+  flex-direction: column;  /* Aligns text below the animation */
+  justify-content: center; /* Centers content vertically */
+  align-items: center;     /* Centers content horizontally */
+  height: 100vh;           /* Full viewport height */
+  width: 100vw;            /* Full viewport width */
+  position: fixed;         /* Fixes the loader in place */
+  top: 0;
+  left: 0;
+  z-index: 1000;           /* Keeps the loader on top */
+}
+
+/* Loading text */
+.loader-text {
+  margin-top: 5px;        /* Space between loader and text */
+  font-size: 1rem;       /* Adjust font size as needed */
+  /* font-weight: bold;       Make the text bold */
+  text-align: center;       /* Inherits color from the container */
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow for better visibility */
+}
+
+/* Optional: Add animation to text */
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+

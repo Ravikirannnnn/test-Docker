@@ -1,0 +1,39 @@
+.layout-black{
+  background-color:#1C1C1E;
+  color: white;
+}
+
+.layout-white {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.page-Layout-conatiner {
+  width: 100%;
+  min-height: 100vh;
+  /* padding-bottom: 10%; */
+}
+/* @media (max-width:480px) {
+  .page-Layout-conatiner {
+   padding-bottom: 10%;
+  }
+} */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow:0 0 0 30px rgb(255, 255, 255) inset !important;
+}
+
+input{
+  outline: none;
+}
+textarea{
+  outline: none;
+
+}
+
+input[type="radio"]:checked {
+  background-color:#FF5F67;
+  border-color: #FF5F67;
+}

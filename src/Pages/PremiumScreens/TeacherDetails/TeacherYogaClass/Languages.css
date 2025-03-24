@@ -1,0 +1,136 @@
+.languages img{
+  width: 14px;
+  height: 7px;
+}
+.languages{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* margin-left: 14%; */
+  /* margin-right: 14%; */
+  margin-top: 5%;
+  font-family: 'OpenSans-Semibold';
+font-size: 18px;
+font-weight: 400;
+line-height: 24.51px;
+text-align: left;
+border-bottom:1px solid #2C2C2E;
+padding-bottom: 1.6%;
+}
+.language-btn-vt{
+  align-content: center;
+    margin-top: 3%;
+    float: right;
+    width: 20%;
+  height: 40px;
+  background-color: #FF5F67;
+  border-radius: 30px;
+  font-family: "OpenSans-Regular";
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 23.15px;
+  text-align: center;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+}
+.overall-edit-language-vt{
+  margin-left: 14%;
+  margin-right: 14%;
+  margin-top: 2%;
+  padding-bottom: 9%;
+}
+
+.city-list1 {
+  border-radius: 10px;
+  margin-top: 5px;
+  /* background-color: #f0f0f0; */
+  max-height: 120px;
+  overflow-y: scroll;
+  padding: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: auto;
+  scrollbar-width: none; 
+
+}
+/* City item */
+.city-item1 {
+  font-size: 14px;
+  /* color: #000; */
+  margin-bottom: 5px;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+}
+.city-item1:hover {
+  background-color: #555;
+  padding-left: 5px;
+  border-radius: 5px;
+}
+
+
+@media (max-width:800px) {
+  .city-list1 {
+    max-height: 100px;
+    padding: 8px;
+  }
+  .city-item1 {
+    font-size: 13px;
+  }
+
+
+  .overall-edit-language-vt{
+    margin-left: 14%;
+    margin-right: 10%;
+  }
+  .language-btn-vt{
+    align-content: center;
+      margin-top: 3%;
+      float: right;
+      width: 25%;
+    height: 40px;
+    font-size: 16px;
+  }
+}
+@media (max-width:480px) {
+  .city-list1 {
+    max-height: 80px;
+    padding: 6px;
+  }
+
+  .city-item1 {
+    font-size: 12px;
+    margin-bottom: 3px;
+  }
+
+  .overall-edit-language-vt{
+    margin-right: 7%;
+    padding-bottom: 12%;
+  }
+  .language-btn-vt{
+    align-content: center;
+      margin-top: 4%;
+      float: right;
+      width: 45%;
+    height: 30px;
+    font-size: 16px;
+  }
+  .languages img{
+    width: 10px;
+    height: 5px;
+  }
+  .languages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 14%;
+    margin-right: 8%;
+    margin-top: 7%;
+    font-family: 'OpenSans-Semibold';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24.51px;
+  text-align: left;
+  border-bottom:1px solid #2C2C2E;
+  padding-bottom: 2%;
+  }
+}

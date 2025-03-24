@@ -1,0 +1,57 @@
+/* InfoCard.css */
+.info-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.info-card-image {
+  width: 48px; /* Adjust as needed */
+  height: 48px;
+  margin-bottom: 16px;
+}
+
+.info-card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-family: "PlusJakartaSans-Bold";
+}
+
+.info-card-subtitle {
+  font-size: 14px;
+  margin-bottom: 16px;
+  color: #888888;
+  font-family: "PlusJakartaSans-Regular";
+
+}
+
+.info-card-button {
+  font-size: 16px;
+  color:#FF5F67;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  /* text-decoration: underline; */
+  font-family: "PlusJakartaSansSemiBold" !important;
+
+}
+.info-card-button:hover {
+  color:#fd0613d0;
+  text-decoration:wavy;
+
+}
+
+@media (max-width:500px) {
+  .info-card-image {
+    width: 40px; /* Adjust as needed */
+    height: 40px;
+    margin-bottom: 16px;
+  }
+}

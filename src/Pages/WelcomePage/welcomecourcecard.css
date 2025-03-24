@@ -1,0 +1,319 @@
+
+
+.welcome-cards-header {
+  display: flex;
+  align-items:center;
+  align-content: center;
+  justify-content: center;
+  padding-left: 48px;
+  font-size: 32px;
+  /* width: 700px; */
+  text-align: center;
+  font-family: "PlusJakartaSans-Bold";
+  font-weight: 400;;
+  padding-top: 40px;
+}
+.btn-container-wlcm{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 95%;
+}
+.welcome-cards-container {
+  display: flex;
+
+  overflow-x: scroll;
+  padding: 20px;
+  gap: 20px;
+}
+
+.welcome-cards-container::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  flex: 0 0 auto;
+  width: 450px;
+  height: 450px;
+  /* background-color: #f1f3f5; */
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+  /* box-shadow: 0 0px 1px rgb(255, 255, 255); Initial box shadow */
+}
+
+.card:hover {
+  transform: scale(1.05);
+   /* Highlight box shadow */
+}
+
+.card-image-box {
+  width: 100%;
+  height: 282px;
+}
+
+.card-image {
+  width: 100%;
+  height: 342px;
+  object-fit: cover;
+  padding: 20px;
+  padding-top: 0px;
+  border-radius: 10px;
+}
+
+.card-content-00 {
+  padding-left: 20px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-contenth2 {
+  font-size: 22px;
+  font-family: 'PlusJakartaSans-Regular';
+  font-weight: 200;
+  max-width: 420px;
+  text-align: center;
+  padding-bottom: 0%;
+  width: 100%;
+}
+
+.card-contenthp234 {
+  font-family: "PlusJakartaSans-Regular";
+font-size: 18px;
+text-align: left;
+line-height: 27px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'PlusJakartaSans-Regular';
+}
+
+.card-rating {
+  color: gold;
+}
+
+.card-badge {
+  background-color: #fff;
+  color: #000;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.button-container-right-arrow-01, .button-container-left-arrow-01{
+  border: 1px solid white; /* Changed to shorthand property */
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  cursor: pointer;
+}
+.button-container-right-arrow-01.darkrightbutton, .button-container-left-arrow-01.darkleftbutton{
+  border: 1px solid rgb(0, 0, 0); /* Changed to shorthand property */
+}
+.button-container-01 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-right: 5%px;
+  padding-top: 20px;
+  gap: 20px;
+  
+ }
+ .new-new{
+  align-items: center;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+ }
+ .sub-new{
+  font-family: 'PlusJakartaSans-Regular';
+font-size: 22px;
+font-weight: 300;
+line-height: 30.24px;
+text-align:center;
+/* color: #ffffff; */
+letter-spacing: 0px;
+width: 50%;
+
+ }
+ .scroll-icon {
+  /* height: 10px; */
+  width: 25%;
+}
+
+ .scroll-icon.dark-mode {
+  filter: invert(1); /* Inverts the color in dark mode */
+  
+}
+.button-container-right-arrow-01 .scroll-icon {
+  /* height: 10px; */
+  padding-right: 5%;
+}
+.button-container-left-arrow-01 .scroll-icon {
+/* height: 10px; */
+padding-left: 5%;
+}
+/* Media Queries */
+@media (max-width:850px) {
+  .welcome-cards-container {
+    padding: 10px;
+    gap: 10px;
+  }
+  
+.card-image {
+  /* width:fit-content; */
+  height: 272px;
+  padding: 10px;
+}
+
+.card-content-00 {
+  padding-left: 10px;
+  padding-right: 5px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  flex: 0 0 auto;
+  width: 450px;
+  height: 330px;
+  /* background-color: #f1f3f5; */
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+  /* box-shadow: 0 0px 1px rgb(255, 255, 255); Initial box shadow */
+}
+}
+@media (max-width: 768px) {
+  .welcome-cards-header {
+    font-size: 24px;
+    padding-left: 30px;
+    padding-top: 10px;
+    /* width: 460px; */
+
+  }
+  .sub-new{
+    font-family: "OpenSans-Light";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24.24px;
+  text-align:center;
+  /* color: #ffffff; */
+  letter-spacing: 2px;
+  width: 80%;
+  
+   }
+  .card {
+    width: 300px;  /* Adjust card width for smaller tablets */
+  }
+
+  .card-content-00 {
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+
+  .card-contenth2 {
+    font-size: 14px;
+    font-weight: 200;
+    /* width: 300px; */
+    padding-bottom: 5%;
+    padding-right: 5px;
+    text-align: center;
+  }
+  .button-container-right-arrow-01 .scroll-icon {
+    /* height: 10px; */
+    padding-right: 5%;
+}
+.button-container-left-arrow-01 .scroll-icon {
+  /* height: 10px; */
+  padding-left: 5%;
+}
+}
+
+@media (max-width: 480px) {
+  .welcome-cards-header {
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    text-align: center;
+    /* width: 300px; */
+  }
+  .sub-new{
+    font-family: "OpenSans-Light";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22.24px;
+  text-align:center;
+  /* color: #ffffff; */
+  letter-spacing: 2px;
+  width: 80%;
+  
+   }
+  .welcome-cards-container {
+    gap: 10px; /* Reduce gap between cards */
+    max-width: 100%;
+  }
+
+  .card {
+    width: 100%; /* Adjust card width for mobile, considering padding */
+    /* margin-left: 10px;  */
+    margin-right: 10px; /* Center card */
+    height: 350px;
+  }
+
+  .card-contenth2 {
+    font-size: 14px;
+    font-weight: 200;
+    width:100%;
+    text-align: center;
+  }
+  .button-container-01 {
+    margin-left: 70%;
+   }
+  .btn-container-wlcm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+  }
+  .button-container-right-arrow-01, .button-container-left-arrow-01{
+    border: 1px solid white; /* Changed to shorthand property */
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .button-container-right-arrow-01 .scroll-icon {
+    /* height: 10px; */
+    padding-right: 5%;
+    padding-top: 5%;
+}
+.button-container-left-arrow-01 .scroll-icon {
+  /* height: 10px; */
+  padding-left: 5%;
+  padding-top: 5%;
+}
+}
+
+
+

@@ -1,0 +1,214 @@
+
+.oc-main-text{
+    font-family: 'OpenSans-Regular';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.79px;
+  text-align: left;
+  color: #FF5F67;
+  }
+  .oc-form-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: 14%;
+    margin-right: 14%;
+    padding-bottom: 5%;
+  }
+  .oc-form-content h3,.oc-form-content-2 h3{
+    font-family: 'OpenSans-Regular';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.51px;
+    text-align: left;
+    
+  }
+  .oc-form-content img ,.oc-form-content-2 img{
+    width: 24px;
+    height: 24px;
+  }
+  .oc-form-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #626262;
+    padding-bottom: 2%;
+    margin-top: 2%;
+  }
+  .oc-new-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .oc-form-content-2{
+    display:flex ;
+    flex-direction: column;
+    justify-content: flex-start;
+    float: left;
+    border-bottom: 1px solid #626262;
+    padding-bottom: 2%;
+    margin-top: 2%;
+    text-align: left;
+  }
+  .sd-in3{
+    font-family: 'OpenSans-Regular';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.51px;
+  text-align: left;
+  padding-bottom: 1%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-bottom: 1px solid #4F4F4F;
+  }
+  .in-inside-img-upload3 img{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+  
+  .in-inside-img-upload3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .ment-btn2{
+    align-content: center;
+    margin-top: 8%;
+    float: right;
+    width: 20%;
+  height: 45px;
+  background-color: #FF5F67;
+  border-radius: 30px;
+  font-family: "OpenSans-Regular";
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 23.15px;
+  text-align: center;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+  }
+  .ment-red-text1{
+    font-family: 'OpenSans-Regular';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: left;
+  color: #ff5f67;
+  margin-top: 3%;
+  }
+  
+  
+  @media (max-width:800px) {
+    .ment-red-text1{
+      font-size: 14px;
+      line-height: 21.79px;
+      margin-top: 3%;
+      }
+    
+    .ment-btn2{
+      align-content: center;
+      margin-top: 8%;
+      float: right;
+      width: 20%;
+    height: 35px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 23.15px;
+    text-align: center;
+    color:black;
+    cursor: pointer;
+    }
+    .in-inside-img-upload3 img{
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+    }
+    .sd-in3{
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24.51px;
+      padding-bottom: 1%;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      }
+  .oc-main-text{
+  font-size: 14px;
+  line-height: 21.79px;
+  }
+  .oc-form-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: 14%;
+    margin-right: 14%;
+    padding-bottom: 5%;
+  }
+  .oc-form-content h3,.oc-form-content-2 h3{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24.51px;
+    text-align: left;
+    
+  }
+  .oc-form-content img ,.oc-form-content-2 img{
+    width: 20px;
+    height: 20px;
+  }
+  
+  }
+  @media (max-width:480px) {
+    .ment-red-text1{
+      font-size: 11px;
+      line-height: 21.79px;
+      margin-top: 3%;
+      }
+    .ment-btn2{
+      align-content: center;
+      margin-top: 10%;
+      float: right;
+      width: 40%;
+    height: 25px;
+    font-size: 12px;
+    line-height: 23.15px;
+    }
+    .in-inside-img-upload3 img{
+      width: 15px;
+      height: 15px;
+      cursor: pointer;
+    }
+  
+    .sd-in3{
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 24.51px;
+      padding-bottom: 1%;
+      margin-top: 2%;
+      margin-bottom: 0%;
+      }
+    .oc-main-text{
+    font-size: 12px;
+    line-height: 21.79px;
+    }
+    .oc-form-container{
+      display: flex;
+      flex-direction: column;
+      margin-top: 5%;
+      margin-left: 14%;
+      margin-right: 14%;
+      padding-bottom: 5%;
+    }
+    .oc-form-content h3,.oc-form-content-2 h3{
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 24.51px;
+      text-align: left;
+      
+    }
+    .oc-form-content img ,.oc-form-content-2 img{
+      width: 15px;
+      height: 15px;
+    }
+    }

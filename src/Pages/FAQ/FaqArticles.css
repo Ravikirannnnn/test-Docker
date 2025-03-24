@@ -1,0 +1,214 @@
+/* FAQArticle.css */
+.faq-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.breadcrumb {
+  font-size: 14px;
+  color: #aaa;
+  margin-bottom: 10px;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: .5rem;
+}
+.breadcrumb span:hover{
+  color: #666;
+  cursor: pointer;
+}
+.content {
+  /* background-color: #666; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  align-items: flex-start;
+  padding: 30px;
+  gap: 1rem;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  color: #aaa;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: "PlusJakartaSans-Bold";
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+h5 {
+  font-family: "PlusJakartaSans-regular";
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h2 {
+  font-family: "PlusJakartaSans-Bold";
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  text-align: left;
+}
+
+a {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: none;
+}
+.dividing-div{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.faq-left{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+overflow-x: scroll;
+padding: 30px;
+gap: 2rem;
+scrollbar-width: none;
+}
+
+.faq-left h2 {
+  font-family: "PlusJakartaSans-Bold";
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.article-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.article-list li {
+  
+  font-family: "PlusJakartaSans-Regular";
+  font-size: 16px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  /* color: #000; */
+  
+}
+
+.article-list li:hover {
+  text-decoration: underline;
+}
+
+.article-list .active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.article-title{
+  font-family: "PlusJakartaSans-Bold";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 43px;
+  text-align: center;
+}
+.st-img img{
+  width: 90%;
+  padding: 20px;
+}
+.content li {
+  
+  font-family: "PlusJakartaSans-Regular";
+  font-size: 16px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  /* color: #000; */
+  
+}
+
+@media (max-width:800px) {
+  
+h1 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+h5 {
+  font-size: 14px;
+  /* line-height: 2rem; */
+}
+
+h2 {
+  font-size:18px;
+  margin-top: 10px;
+  margin-bottom: 1px;
+}
+.faq-left h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.article-list {
+  gap: 1.5rem;
+}
+
+.article-list li {
+  font-size: 14px;
+  margin-bottom: 1px;
+}
+
+.article-title{
+  margin-top: 2%;
+  font-size: 28px;
+}
+}
+
+@media (max-width:480px) {
+  .dividing-div{
+    display: flex;
+    flex-direction: column;
+  }
+  .breadcrumb{
+    padding: 0;
+  }
+  .breadcrumb span{
+    padding: 5px;
+    font-size: 12px;
+  }
+  .back-button{
+    display: none;
+  }
+  .faq-left{
+    padding-bottom: 0;
+    padding: 10px;
+  }
+  .content{
+    padding: 10px;
+  }
+  .st-img img{
+    width: 100%;
+    padding: 10px;
+  }
+  .faq-container{
+    padding-bottom: 15%;
+  }
+  .content li {
+    font-size: 14px;
+    
+  }
+}

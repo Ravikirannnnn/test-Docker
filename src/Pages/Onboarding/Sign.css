@@ -1,0 +1,288 @@
+.signuplayout-header {
+    width: 100%;
+    /* padding-bottom: 9%; */
+    /* width: 319px; */
+    height: 100vh;
+  }
+
+  .setpasswordmodal-button {
+    padding-top: 20px;
+  }
+  
+  .signUp-hello123 {
+    font-size: 20px;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 160px;
+    font-family: "PlusJakartaSansSemiBold";
+    padding-top: 10px;
+    color: #ffffff;
+  }
+  .social-login-types11234{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  .social-login-types123{
+    height: 50px; 
+    width: 50px;
+    border-radius: 25px;
+    background-color: #3A3A3C;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+
+  }
+  .error-message-00 {
+    position: absolute;
+    color: #ff1c27; /* Red color for error */
+    font-size: .875rem; /* Smaller font size for clarity */
+    /* margin-top: 4px; Space above the error message */
+    /* margin-bottom: 4px; Space below the error message */
+    padding: 2px 4px; /* Padding around the text */
+    border-radius: 4px; /* Rounded corners */
+    text-align: left;
+    width: fit-content;
+  }
+  
+  
+  .signup-form123 {
+    width: 100%;
+    max-width: 500px;
+    /* margin: 0 auto; */
+    padding-left: 160px;
+    padding-top: 15px;
+  }
+  
+  .form-group123 {
+    padding-bottom : 8px;
+    font-family: 'PlusJakartaSans-Regular';
+    /* position: relative; */
+    border-bottom: 2px solid #333; /* Change the color as per your design */
+  }
+  .form-group1234 {
+    margin-bottom : 20px;
+  }
+  
+  .form-group123 input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px !important;
+    border: none;
+    /* border-bottom: 2px solid #333; */
+    outline: none;
+    background-color:transparent !important;
+    color: #fff; /* Change the color as per your design */
+  }
+  .form-group123 input::placeholder {
+    color: #aaa;
+  }
+  
+  /* input:-webkit-autofill,
+  input:-webkit-autofill:hover, 
+  input:-webkit-autofill:focus, 
+  input:-webkit-autofill:active{
+      -webkit-box-shadow:0 0 0 30px white inset !important;
+  } */
+
+  .password-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 6%;
+  }
+  
+  .password-container input {
+    width: 100%;
+    padding-right: 40px; /* Adjusting for the icon width */
+  }
+  
+  .toggle-password {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    filter: invert(100%); /* Inverts the color of the icon, making it white */
+  }
+  .linear-button123 {
+    background: linear-gradient(90deg, var(--color-primary) 0%,var(--color-primary) 100%);
+    border: none;
+    border-radius: 25px;
+    /* color: white; */
+    padding: 10px 20px;
+    font-size: 17px;
+    font-family: "OpenSans-Regular";
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 100%;
+    font-weight: 400;
+    max-width: 500px;
+  }
+  
+  .linear-button123:hover {
+    background: linear-gradient(90deg,var(--color-primary) 0%,var(--color-primary) 100%);
+  }
+  
+  .linear-button123:focus {
+    outline: none;
+  }
+  .eye-icon img{
+    width: 30%;
+    /* height: 30%; */
+  }
+  @media only screen and (max-width: 1240px) {
+    .signup-form123 {
+      width: 100%;
+      max-width: 500px;
+      /* margin: 0 auto; */
+      padding-left: 60px;
+      padding-top: 15px;
+    }
+    .signUp-hello123 {
+      font-size: 28px;
+      display: flex;
+      align-items: flex-start;
+      padding-left: 80px;
+    }
+    .signup-form123 {
+      width: 90%;
+      max-width: 500px;
+      /* margin: 0 auto; */
+      padding-left: 80px;
+      padding-top: 15px;
+    }
+  }
+  
+ 
+
+  .social-login-types11234{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+
+  .social-login-types123{
+    height: 50px; 
+    width: 50px;
+    border-radius: 25px;
+    /* background-color:  #fefefe; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+
+  }
+  .sinup-bottom-text123{
+    align-items: flex-start;
+    font-size: 14px;
+    padding-top: 10px;
+  }
+
+  .forget-password123 {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 8%;
+    color:#FF5F67; /* Adjust color as needed */
+    font-size: 14px;
+
+  }
+
+  @media only screen and (max-width: 780px) {
+
+    .signup-form123 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 400px;
+        /* margin: 0 auto; */
+        padding-left: 0%;
+        padding-top: 15px;
+      }
+      .signUp-hello123 {
+        font-size: 28px;
+        display: flex;
+        align-items:center;
+        padding-left: 0px;
+      }
+      .linear-button123{
+         font-size: 16px;
+      }
+     
+      
+  }
+  @media only screen and (max-width: 480px) {
+    .signuplayout-header {
+      width: 100%;
+      /* padding-bottom: 9%; */
+      /* width: 319px; */
+      height: 100vh;
+      padding-bottom: 50%;
+    }
+    .signup-form123 {
+        width: 72%;
+        /* max-width: 500px; */
+        /* margin: 0 auto; */
+        padding-left: 0px;
+        padding-top: 15px;
+      }
+      .signUp-hello123 {
+        font-size: 16px;
+        display: flex;
+        align-items: flex-start;
+        padding-left: 0px;
+      }
+      /* .form-group123 input {
+        width: 80%;
+        padding: 10px 0;
+        font-size: 16px;
+        border: none;
+        border-bottom: 2px solid #333; 
+        background: transparent;
+        color: #fff; 
+      } */
+     
+      
+      .form-group123 {
+        font-family: 'PlusJakartaSans-Regular';
+      }
+      
+      .form-group123 input {
+        width: 100%;
+        padding: 10px 0;
+        font-size: 14px !important;
+        border: none;
+        outline: none;
+        background: transparent;
+        color: #fff; /* Change the color as per your design */
+      }
+
+
+      .sinup-bottom-text123{
+        align-items: flex-start;
+        font-size: 12px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+      .forget-password123{
+        font-size: 12px;
+        font-family: "PlusJakartaSans-Regular";
+        /* color: #000; */
+      }
+      .linear-button123{
+        font-size: 14px;
+      }
+  }

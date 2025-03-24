@@ -1,0 +1,227 @@
+.notify-main-container{
+  padding-top: 3%;
+  padding-left: 9%;
+  padding-right: 10%;
+  /* padding-bottom: 10%; */
+  /* height: 100%; */
+  /* padding-bottom: 10%; */
+}
+.left-arrow-main-015{
+  /* background-color: #d8d8df; */
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  align-content: center;
+box-shadow: 0px 0px 1px 1px #00BBD140;
+}
+.edit-profile-flex-start-015{
+  display:flex;
+  flex-direction: row;
+  /* justify-content:safe; */
+  /* grid-template-columns:5% 20% ; */
+  
+}
+.css-17z6nsr.Mui-checked + .MuiSwitch-track {
+  background-color:  #FF5F67 !important;
+}
+
+.css-161ms7l-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked+.MuiSwitch-track {
+  background-color: #FF5F67 !important ;
+}
+.css-17z6nsr.Mui-checked {
+  color: #FF5F67 !important;
+}
+
+.css-161ms7l-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked {
+  color: #FF5F67 !important ;
+}
+.css-161ms7l-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked {
+  color: #FF5F67 !important ;
+}
+.css-pcrmjj {
+  background-color: #FF5F67 !important ;
+}
+
+.edit-profile-title-015{
+  font-family: "PlusJakartaSans-Bold";
+font-size: 32px;
+font-weight: 400;
+line-height: 43px;
+text-align: left;
+margin-left: 2%;
+}
+.edit-profile-left-arrow-015>img{
+  width: 11px;
+  height: 21px;
+  align-items: center;
+  text-align: center;
+  /* border-radius: 50%; */
+}
+.notify-top-title{
+  font-family: 'OpenSans-Regular';
+font-size: 22px;
+font-weight: 700;
+line-height: 18px;
+text-align: left;
+}
+.notify-top-title-arrow>img{
+  width:12px;
+  height:6px
+}
+.notify-title-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+.notify-contents-container{
+  margin-top: 3%;
+  border-radius: 10px;
+  padding: 4%;
+box-shadow: 0px 0px 1px 1px #00BBD140;
+}
+.notify-content-1,.notify-content-2,.notify-content-3,.notify-content-4,.notify-content-5{
+  /* //styleName: Body/Medium; */
+font-family: 'OpenSans-Regular';
+font-size: 18px;
+font-weight: 600;
+line-height: 18px;
+text-align: left;
+}
+.notify-row-1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #505050;
+  padding-bottom: 2%;
+}
+.notify-row-2,.notify-row-3,.notify-row-4,.notify-row-5{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2%;
+  border-bottom: 1px solid #505050;
+  padding-bottom: 2%
+}
+/* .switch-icon-4{
+  width: 50%;
+}
+.form-control-label-4 {
+  color: red;
+  margin-right: 10px;
+  width: 50%; 
+}
+
+.switch-4 {
+  color: #af4c59; 
+} */
+@media only screen and (max-width: 780px) {
+  .notify-main-container {
+    padding-left: 9%;
+    margin-top: 1%;
+    padding-right: 9%;
+  }
+
+  .edit-profile-title-015 {
+    font-size: 28px;
+    margin-left: 1%;
+  }
+
+  .notify-top-title {
+    font-size: 20px;
+  }
+
+  .notify-content-1,
+  .notify-content-2,
+  .notify-content-3,
+  .notify-content-4,
+  .notify-content-5 {
+    font-size: 16px;
+  }
+
+  .left-arrow-main-015 {
+    width: 35px;
+    height: 35px;
+    margin-top: 1%;
+  }
+.edit-profile-left-arrow-015>img{
+  width:8px;
+  height:16px
+}
+  .notify-row-1,
+  .notify-row-2,
+  .notify-row-3,
+  .notify-row-4,
+  .notify-row-5 {
+    flex-direction: row; /* Stack items vertically */
+    align-items: flex-start;
+  }
+}
+
+/* Responsive Styles for max-width: 480px */
+@media only screen and (max-width: 480px) {
+  .notify-main-container {
+    padding-left: 9%;
+    padding-right: 9%;
+    margin-top: 2%;
+  }
+
+  .left-arrow-main-015 {
+    width: 25px;
+    height: 25px;
+    margin-top: 3%;
+  }
+.edit-profile-left-arrow-015>img{
+  width:6px;
+  height:12px
+}
+  .edit-profile-title-015 {
+    font-size: 22px;
+    margin-left: 2%;
+  }
+
+  .notify-top-title {
+    font-size: 18px;
+  }
+
+  .notify-top-title-arrow > img {
+    width: 10px;
+    height: 5px;
+  }
+
+  .notify-content-1,
+  .notify-content-2,
+  .notify-content-3,
+  .notify-content-4,
+  .notify-content-5 {
+    font-size: 14px;
+  }
+
+  
+  .notify-row-2,
+  .notify-row-3,
+  .notify-row-4,
+  .notify-row-5 {
+    flex-direction: row; /* Stack items vertically */
+    align-items: flex-start;
+    margin-top: 3%;
+  }
+  .notify-row-1{
+    flex-direction: row; /* Stack items vertically */
+    align-items: flex-start;
+    margin-top: 10%;
+  }
+  .notify-contents-container{
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .MuiFormControlLabel-root{
+    margin-right: 0 !important;
+  }
+  /* .switch-4{
+    width:50%;
+    height: 60%;
+  } */
+}
+
+
